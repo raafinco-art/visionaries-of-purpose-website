@@ -1,0 +1,78 @@
+name: Deploy preview to GitHub Pages
+
+# This publishes a PREVIEW of an unreleased site. It is deliberately excluded
+# from search indexing: the privacy and cookie notices are still awaiting legal
+# review, and several owner details are unconfirmed. See LAUNCH-BLOCKERS.md.
+#
+# The production deployment is a separate concern and should serve from the
+# confirmed domain root, after running `npm run set-domain`.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Regenerate pages from source
+        run: npm run build:pages
+
+      - name: Build for the Pages subpath
+        env:
+          # Pages serves this repository from /<repo-name>/, not the domain root.
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: npm run build
+
+      - name: Rewrite the URLs Vite leaves alone
+        run: node scripts/apply-base-path.mjs "/${{ github.event.repository.name }}/"
+
+      - name: Keep the preview out of search results
+        run: |
+          printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
+          # A sitemap pointing at unconfirmed URLs would be misleading here.
+          rm -f dist/sitemap.xml
+
+      - name: Verify the build produced every route
+        run: |
+          missing=0
+          for route in index about artists services events music news contact privacy cookies; do
+            if [ "$route" = "index" ]; then f="dist/index.html"; else f="dist/$route/index.html"; fi
+            if [ ! -f "$f" ]; then echo "MISSING: $f"; missing=1; fi
+          done
+          [ -f dist/404.html ] || { echo "MISSING: dist/404.html"; missing=1; }
+          [ -f dist/news/tshepiso-sk-community-outreach/index.html ] || { echo "MISSING: article"; missing=1; }
+          exit $missing
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

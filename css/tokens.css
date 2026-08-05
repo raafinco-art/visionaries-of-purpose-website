@@ -120,6 +120,73 @@
       inset 6px 6px 14px rgb(0 0 0 / 52%),
       inset -3px -3px 9px rgb(255 255 255 / 4%);
 
+    /* ---- Detailed tactile material system ----
+       Chassis is the broad supporting surface, bezel frames media and
+       controls, raised is selectable, recess is an input or instrument well.
+       Every shadow keeps the stage's warm burgundy bias. */
+    --material-chassis: #171113;
+    --material-chassis-high: #261c1f;
+    --material-well: #070607;
+    --material-edge-light: rgb(255 245 240 / 11%);
+    --material-edge-dark: rgb(0 0 0 / 72%);
+    --material-gold-edge: rgb(209 163 59 / 34%);
+
+    /* ---- Restrained liquid-glass layer ----
+       Glass is reserved for floating navigation, overlays and selected
+       controls. The opaque chassis remains the dominant material. */
+    --glass-surface: rgb(34 23 27 / 64%);
+    --glass-surface-strong: rgb(14 10 12 / 78%);
+    --glass-edge: rgb(255 248 245 / 15%);
+    --glass-highlight: rgb(255 248 245 / 12%);
+    --glass-accent: rgb(118 13 23 / 16%);
+    --glass-blur: 18px;
+    --glass-saturate: 138%;
+    --shadow-glass:
+      0 1px 0 rgb(255 248 245 / 10%) inset,
+      0 -1px 0 rgb(0 0 0 / 44%) inset,
+      0 18px 42px rgb(0 0 0 / 38%);
+
+    --shadow-neu-shallow:
+      -4px -4px 10px rgb(72 47 51 / 15%),
+      6px 7px 14px rgb(0 0 0 / 46%),
+      inset 0 1px 0 rgb(255 248 245 / 8%),
+      inset 0 -1px 0 rgb(0 0 0 / 55%);
+    --shadow-neu-raised:
+      -9px -9px 22px rgb(73 46 51 / 19%),
+      13px 16px 34px rgb(0 0 0 / 58%),
+      inset 1px 1px 0 rgb(255 248 245 / 10%),
+      inset -1px -1px 0 rgb(0 0 0 / 68%);
+    --shadow-neu-raised-hover:
+      -11px -11px 26px rgb(84 51 57 / 23%),
+      17px 22px 44px rgb(0 0 0 / 66%),
+      0 12px 36px rgb(118 13 23 / 17%),
+      inset 1px 1px 0 rgb(255 248 245 / 14%),
+      inset -1px -1px 0 rgb(0 0 0 / 72%);
+    --shadow-neu-recessed:
+      inset 8px 9px 18px rgb(0 0 0 / 67%),
+      inset -6px -6px 15px rgb(75 48 52 / 13%),
+      0 1px 0 rgb(255 248 245 / 6%);
+    --shadow-neu-bezel:
+      0 0 0 1px rgb(0 0 0 / 70%),
+      0 0 0 2px rgb(255 248 245 / 5%),
+      -8px -8px 22px rgb(72 45 50 / 14%),
+      15px 20px 44px rgb(0 0 0 / 62%),
+      inset 0 1px 0 rgb(255 248 245 / 11%);
+    --shadow-neu-pressed:
+      inset 7px 8px 16px rgb(0 0 0 / 70%),
+      inset -4px -4px 11px rgb(77 47 52 / 12%),
+      0 1px 0 rgb(255 248 245 / 4%);
+
+    --shadow-paper-raised:
+      -8px -8px 18px rgb(255 255 255 / 58%),
+      10px 13px 26px rgb(89 66 54 / 17%),
+      inset 1px 1px 0 rgb(255 255 255 / 84%),
+      inset -1px -1px 0 rgb(98 72 55 / 12%);
+    --shadow-paper-recessed:
+      inset 5px 6px 12px rgb(107 83 66 / 15%),
+      inset -4px -4px 10px rgb(255 255 255 / 65%),
+      0 1px 0 rgb(255 255 255 / 72%);
+
     /* ---- Motion ---- */
     --motion-instant: 100ms;
     --motion-fast: 180ms;

@@ -70,8 +70,17 @@ function restoreDocumentUrls() {
   };
 }
 
+/*
+ * The site is authored for a domain root, which is where it will live in
+ * production. A preview served from a subpath (GitHub Pages) sets BASE_PATH,
+ * and scripts/apply-base-path.mjs prefixes the navigation links that Vite does
+ * not treat as assets. Production builds leave this at '/'.
+ */
+const BASE_PATH = process.env.BASE_PATH || '/';
+
 export default defineConfig({
   appType: 'mpa',
+  base: BASE_PATH,
   plugins: [preserveDocumentUrls(), restoreDocumentUrls()],
   build: {
     target: 'es2022',
