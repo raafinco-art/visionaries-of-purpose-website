@@ -522,7 +522,8 @@
     box-shadow: var(--shadow-neu-bezel);
   }
 
-  .service__media img {
+  .service__media img,
+  .service__image {
     border-radius: calc(var(--radius-card) - 0.2rem);
     box-shadow: var(--shadow-neu-recessed);
   }

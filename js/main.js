@@ -58,6 +58,10 @@ function boot() {
     import('./contact.js').then((m) => m.initContactForm());
   }
 
+  if (has('[data-service-background]')) {
+    import('./service-backgrounds.js').then((m) => m.initServiceBackgrounds());
+  }
+
   // Footer year, so the copyright line never goes stale.
   for (const node of document.querySelectorAll('[data-current-year]')) {
     node.textContent = String(new Date().getFullYear());

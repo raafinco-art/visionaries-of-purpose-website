@@ -55,6 +55,21 @@
     text-decoration: none;
   }
 
+  /*
+   * The press must land immediately, while the release can ease back. With the
+   * browser's tap highlight removed, this is the only feedback a touch user
+   * gets, so it has to be instant.
+   */
+  .btn:active,
+  .icon-btn:active,
+  .gig-card:active,
+  .filter-toggle:active,
+  .nav-toggle:active,
+  .link-pill:active,
+  .whatsapp-btn:active {
+    transition-duration: var(--motion-instant);
+  }
+
   /* Burgundy enamel: lacquered highlight along the top, deeper shadow below. */
   .btn--primary {
     border-color: rgb(255 255 255 / 18%);
@@ -301,6 +316,11 @@
   .primary-nav__link:hover {
     color: var(--text-on-dark);
     background: rgb(245 239 228 / 7%);
+  }
+
+  .primary-nav__link:active {
+    background: rgb(245 239 228 / 4%);
+    box-shadow: var(--shadow-pressed);
   }
 
   /* Current page reads as a pressed control, not colour alone. */
@@ -1137,6 +1157,11 @@
     transform: scale(1.25);
   }
 
+  .video-showcase__dot:active::before {
+    transform: scale(0.85);
+    background: var(--accent-metal);
+  }
+
   /* =======================================================================
      Release / discography
      ======================================================================= */
@@ -1495,6 +1520,11 @@
     background: rgb(245 239 228 / 5%);
   }
 
+  .accordion__trigger:active {
+    background: rgb(245 239 228 / 2%);
+    box-shadow: var(--shadow-pressed);
+  }
+
   .accordion__index {
     font-family: var(--font-utility);
     font-size: 0.9375rem;
@@ -1745,6 +1775,13 @@
   .site-footer__list a:hover {
     color: var(--text-on-dark);
     text-decoration: underline;
+  }
+
+  /* Text links get a brief dim instead of the removed tap highlight. */
+  .site-footer__list a:active,
+  .link-button:active,
+  .breadcrumbs a:active {
+    opacity: 0.6;
   }
 
   /* A real button that reads as a link, used for the consent settings trigger. */

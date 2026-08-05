@@ -71,6 +71,63 @@
     color: var(--brand-ivory);
   }
 
+  /* =======================================================================
+     Touch behaviour.
+
+     Mobile browsers paint a translucent blue-grey box over whatever you tap,
+     and a long press or a quick second tap selects the label text. Both read
+     as glitches on a control that already has its own pressed state.
+
+     The property is inherited, so clearing it at the root covers every
+     control, including ones added later.
+     ======================================================================= */
+  :root {
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+  }
+
+  /*
+   * `manipulation` removes the legacy 300ms wait for a possible double-tap,
+   * so a press registers immediately. Double-tap-to-zoom still works on the
+   * page itself, just not on the controls.
+   */
+  a,
+  button,
+  summary,
+  label,
+  input,
+  select,
+  textarea,
+  [role="button"] {
+    touch-action: manipulation;
+  }
+
+  /*
+   * Labels on controls are not content worth selecting, and an accidental
+   * selection while tapping looks broken. Body copy, headings, legal text and
+   * event details stay fully selectable so visitors can still copy a date,
+   * a venue or a clause.
+   */
+  .btn,
+  .icon-btn,
+  .link-pill,
+  .link-button,
+  .filter-toggle,
+  .nav-toggle,
+  .whatsapp-btn,
+  .primary-nav__link,
+  .nav-sheet__link,
+  .video-showcase__dot,
+  .accordion__trigger,
+  .social-links a,
+  .site-footer__list a,
+  .gig-card,
+  summary {
+    -webkit-user-select: none;
+    user-select: none;
+    /* Suppresses the iOS long-press callout on controls only. */
+    -webkit-touch-callout: none;
+  }
+
   /* ---- Media ---- */
   img,
   picture > img {
