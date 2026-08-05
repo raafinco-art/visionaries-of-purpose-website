@@ -36,22 +36,10 @@ insert into public.artists (slug, name, legal_name, role, short_bio, long_bio, p
   is_published = excluded.is_published;
 
 insert into public.artists (slug, name, legal_name, role, short_bio, long_bio, portrait_path, portrait_alt, social_links, display_order, is_published) values (
-  'given-mohlala', 'Given Mohlala', NULL, 'Worshiper · Composer · Songwriter',
-  'A worshiper and composer whose music is shaped in moments of deep divine encounter.', ARRAY['Given Mohlala is a visionary worshiper, composer and songwriter whose music is shaped in moments of deep divine encounter.', 'For Given, worship is more than a sound. It is a sacred response to what God reveals. His songs are often born from personal encounters with the presence of God, carrying messages that strengthen faith, awaken purpose and draw hearts closer to Christ.', 'With every melody and lyric, Given seeks to translate revelation into music that people can experience, remember and live by. His creativity is rooted in faith, guided by purpose and committed to leaving a lasting spiritual impact.', 'As part of Visionaries of Purpose, Given Mohlala represents a new generation of worshipers who are not only gifted to sing, but called to see, create and release what heaven is communicating to the world.']::text[],
-  'assets/images/artists/given-mohlala-portrait', 'Given Mohlala, worshiper, composer and songwriter with Visionaries of Purpose.',
-  '[{"platform":"TikTok","url":"https://www.tiktok.com/@givenmohlala1"},{"platform":"Facebook","url":"https://www.facebook.com/GMohlala"},{"platform":"Instagram","url":"https://www.instagram.com/mohlala.g/"}]'::jsonb, 3, true
-) on conflict (slug) do update set
-  name = excluded.name, legal_name = excluded.legal_name, role = excluded.role,
-  short_bio = excluded.short_bio, long_bio = excluded.long_bio,
-  portrait_path = excluded.portrait_path, portrait_alt = excluded.portrait_alt,
-  social_links = excluded.social_links, display_order = excluded.display_order,
-  is_published = excluded.is_published;
-
-insert into public.artists (slug, name, legal_name, role, short_bio, long_bio, portrait_path, portrait_alt, social_links, display_order, is_published) values (
   'divine-oracle', 'Divine Oracle', 'Divine Jonasi', 'Preacher · Worshipper',
   'A preacher and worshipper whose ministry is shaped by faith, purpose and a desire to reveal the heart of God.', ARRAY['Divine Oracle, born Divine Jonasi, is a visionary preacher and worshipper whose ministry is shaped by faith, purpose and a deep desire to reveal the heart of God.', 'As part of Visionaries of Purpose, he carries a forward-looking approach to ministry, using both the Word and worship to awaken faith, inspire spiritual growth and lead people into meaningful encounters with God. His calling is not only to minister for the moment, but to help shape a generation that sees beyond the present and lives with divine purpose.']::text[],
   'assets/images/artists/divine-oracle-portrait', 'Divine Oracle, preacher and worshipper with Visionaries of Purpose.',
-  '[]'::jsonb, 4, true
+  '[]'::jsonb, 3, true
 ) on conflict (slug) do update set
   name = excluded.name, legal_name = excluded.legal_name, role = excluded.role,
   short_bio = excluded.short_bio, long_bio = excluded.long_bio,
@@ -128,38 +116,6 @@ insert into public.events (slug, title, theme, event_type, host, organisers, art
   event_date, is_all_day, end_time_label, venue, city, description, long_description,
   admission, entrance_requirements, scripture, enquiry_numbers, poster_path, poster_alt,
   ticket_url, ticket_provider, prices, maps_url, is_published) values (
-  'second-annual-charity-worship-night', 'Second Annual Charity Worship Night', 'Gospel Festival', 'Gospel festival', NULL,
-  ARRAY['Phalane Legacy', 'AFM City of Refuge']::text[], ARRAY['Frank Phalane', 'Minister Princess', 'Given Mohlala', 'Reneilwe', 'Simon Kupa']::text[],
-  '2026-08-28', false, 'Until late',
-  'AFM City of Refuge', 'Letebejane',
-  'Join Phalane Legacy and AFM City of Refuge for an evening of worship, giving and community impact.', ARRAY['Phalane Legacy and AFM City of Refuge present the Second Annual Charity Worship Night, a gospel festival created to bring worship, generosity and community impact together in one meaningful gathering.', 'The evening will feature uplifting worship, live gospel ministry and a shared commitment to helping people in need. More artists may be announced.']::text[],
-  'Entrance is based on a charitable contribution.', ARRAY['Clothes', 'Shoes', 'Food', 'R50 offering']::text[], 'Hebrews 13:16',
-  ARRAY['060 875 5073', '061 869 9355']::text[],
-  'assets/images/events/charity-worship-night-2026-poster', 'Second Annual Charity Worship Night gospel festival poster in orange and black, featuring Given Mohlala among the artists.',
-  NULL, NULL, '[]'::jsonb, NULL,
-  true
-) on conflict (slug) do update set
-  title = excluded.title, theme = excluded.theme, event_type = excluded.event_type,
-  host = excluded.host, organisers = excluded.organisers, artist_names = excluded.artist_names,
-  event_date = excluded.event_date, is_all_day = excluded.is_all_day,
-  end_time_label = excluded.end_time_label, venue = excluded.venue, city = excluded.city,
-  description = excluded.description, long_description = excluded.long_description,
-  admission = excluded.admission, entrance_requirements = excluded.entrance_requirements,
-  scripture = excluded.scripture, enquiry_numbers = excluded.enquiry_numbers,
-  poster_path = excluded.poster_path, poster_alt = excluded.poster_alt,
-  ticket_url = excluded.ticket_url, ticket_provider = excluded.ticket_provider,
-  prices = excluded.prices, maps_url = excluded.maps_url,
-  is_published = excluded.is_published;
-
-delete from public.event_sessions where event_id = (select id from public.events where slug = 'second-annual-charity-worship-night');
-insert into public.event_sessions (event_id, label, starts_at, ends_at, display_order)
-  select id, 'Doors and worship', '2026-08-28T18:00:00+02:00'::timestamptz, NULL, 0
-  from public.events where slug = 'second-annual-charity-worship-night';
-
-insert into public.events (slug, title, theme, event_type, host, organisers, artist_names,
-  event_date, is_all_day, end_time_label, venue, city, description, long_description,
-  admission, entrance_requirements, scripture, enquiry_numbers, poster_path, poster_alt,
-  ticket_url, ticket_provider, prices, maps_url, is_published) values (
   'tshepiso-sk-worship-night-burgersfort', 'Worship Night', NULL, 'Worship night', NULL,
   '{}', ARRAY['Tshepiso SK']::text[],
   '2026-09-26', true, NULL,
@@ -184,38 +140,6 @@ insert into public.events (slug, title, theme, event_type, host, organisers, art
   is_published = excluded.is_published;
 
 delete from public.event_sessions where event_id = (select id from public.events where slug = 'tshepiso-sk-worship-night-burgersfort');
-
-insert into public.events (slug, title, theme, event_type, host, organisers, artist_names,
-  event_date, is_all_day, end_time_label, venue, city, description, long_description,
-  admission, entrance_requirements, scripture, enquiry_numbers, poster_path, poster_alt,
-  ticket_url, ticket_provider, prices, maps_url, is_published) values (
-  'worship-therapy-season-3', 'Worship Therapy Season 3', 'Gospel Worship Experience', 'Music show', NULL,
-  '{}', ARRAY['Given Mohlala']::text[],
-  '2026-10-03', false, NULL,
-  'Sehlaku Secondary School Hall', 'R37',
-  'Step into an atmosphere of praise, prayer and renewal with Given Mohlala.', ARRAY['Worship Therapy Season 3 is a gospel worship experience centred on praise, prayer, healing, freedom and a life-changing encounter with God.', 'This season features Given Mohlala and invites worshippers to gather for an evening of sincere worship, spiritual connection and renewal.']::text[],
-  NULL, '{}', NULL,
-  ARRAY['071 331 8575', '082 476 0160']::text[],
-  'assets/images/events/worship-therapy-season-3-poster', 'Worship Therapy Season 3 poster featuring Given Mohlala, 3 October 2026 at 17:00.',
-  'https://computicket.com/event/worship-therapy-season-3/107c576e-35a9-4eec-9526-2d07311eff8c', 'Computicket', '[{"tier":"Early bird","amount":"R100"},{"tier":"General","amount":"R150"},{"tier":"VIP","amount":"R300"}]'::jsonb, NULL,
-  true
-) on conflict (slug) do update set
-  title = excluded.title, theme = excluded.theme, event_type = excluded.event_type,
-  host = excluded.host, organisers = excluded.organisers, artist_names = excluded.artist_names,
-  event_date = excluded.event_date, is_all_day = excluded.is_all_day,
-  end_time_label = excluded.end_time_label, venue = excluded.venue, city = excluded.city,
-  description = excluded.description, long_description = excluded.long_description,
-  admission = excluded.admission, entrance_requirements = excluded.entrance_requirements,
-  scripture = excluded.scripture, enquiry_numbers = excluded.enquiry_numbers,
-  poster_path = excluded.poster_path, poster_alt = excluded.poster_alt,
-  ticket_url = excluded.ticket_url, ticket_provider = excluded.ticket_provider,
-  prices = excluded.prices, maps_url = excluded.maps_url,
-  is_published = excluded.is_published;
-
-delete from public.event_sessions where event_id = (select id from public.events where slug = 'worship-therapy-season-3');
-insert into public.event_sessions (event_id, label, starts_at, ends_at, display_order)
-  select id, 'Doors and worship', '2026-10-03T17:00:00+02:00'::timestamptz, NULL, 0
-  from public.events where slug = 'worship-therapy-season-3';
 
 insert into public.events (slug, title, theme, event_type, host, organisers, artist_names,
   event_date, is_all_day, end_time_label, venue, city, description, long_description,
@@ -401,43 +325,11 @@ insert into public.music_releases (slug, title, artist_display, artist_id, relea
 insert into public.music_releases (slug, title, artist_display, artist_id, release_type,
   cover_path, cover_alt, spotify_track_id, apple_song_id, platform_links, is_latest,
   display_order, is_published) values (
-  'o-mogologolo', 'O Mogologolo', 'Given Mohlala',
-  (select id from public.artists where slug = 'given-mohlala'),
-  'Live single', 'assets/images/music/o-mogologolo-cover', 'Cover artwork for O Mogologolo by Given Mohlala, recorded live in Pretoria.',
-  '5hhXPSieGcOOokcJ6OFAyu', '1843885803', '[{"platform":"Spotify","url":"https://open.spotify.com/track/5hhXPSieGcOOokcJ6OFAyu"},{"platform":"Apple Music","url":"https://music.apple.com/us/song/o-mogologolo-live/1843885803"}]'::jsonb,
-  false, 5, true
-) on conflict (slug) do update set
-  title = excluded.title, artist_display = excluded.artist_display,
-  artist_id = excluded.artist_id, release_type = excluded.release_type,
-  cover_path = excluded.cover_path, cover_alt = excluded.cover_alt,
-  spotify_track_id = excluded.spotify_track_id, apple_song_id = excluded.apple_song_id,
-  platform_links = excluded.platform_links, is_latest = excluded.is_latest,
-  display_order = excluded.display_order, is_published = excluded.is_published;
-
-insert into public.music_releases (slug, title, artist_display, artist_id, release_type,
-  cover_path, cover_alt, spotify_track_id, apple_song_id, platform_links, is_latest,
-  display_order, is_published) values (
-  'ehh-kea-dumela', 'Ehh Kea Dumela', 'Given Mohlala',
-  (select id from public.artists where slug = 'given-mohlala'),
-  'Live single', 'assets/images/music/ehh-kea-dumela-cover', 'Cover artwork for Ehh Kea Dumela by Given Mohlala, recorded live at Pretoria.',
-  '3mZcqiW4SAg2cDTSmER4cM', '1839441026', '[{"platform":"Spotify","url":"https://open.spotify.com/track/3mZcqiW4SAg2cDTSmER4cM"},{"platform":"Apple Music","url":"https://music.apple.com/us/song/ehh-kea-dumela-live/1839441026"}]'::jsonb,
-  false, 6, true
-) on conflict (slug) do update set
-  title = excluded.title, artist_display = excluded.artist_display,
-  artist_id = excluded.artist_id, release_type = excluded.release_type,
-  cover_path = excluded.cover_path, cover_alt = excluded.cover_alt,
-  spotify_track_id = excluded.spotify_track_id, apple_song_id = excluded.apple_song_id,
-  platform_links = excluded.platform_links, is_latest = excluded.is_latest,
-  display_order = excluded.display_order, is_published = excluded.is_published;
-
-insert into public.music_releases (slug, title, artist_display, artist_id, release_type,
-  cover_path, cover_alt, spotify_track_id, apple_song_id, platform_links, is_latest,
-  display_order, is_published) values (
   'phenyo', 'Phenyo', 'Sonto & Tshepiso',
   (select id from public.artists where slug = 'tshepiso-sk'),
   'Single', 'assets/images/music/ngcwele-phenyo-cover', 'Cover artwork for the Ngcwele and Phenyo release by Sonto and Tshepiso.',
   '0A20P9vmf6gMa0GC5BUiS0', NULL, '[{"platform":"Spotify","url":"https://open.spotify.com/track/0A20P9vmf6gMa0GC5BUiS0"}]'::jsonb,
-  false, 7, true
+  false, 5, true
 ) on conflict (slug) do update set
   title = excluded.title, artist_display = excluded.artist_display,
   artist_id = excluded.artist_id, release_type = excluded.release_type,
@@ -453,7 +345,7 @@ insert into public.music_releases (slug, title, artist_display, artist_id, relea
   (select id from public.artists where slug = 'tshepiso-sk'),
   'Single', 'assets/images/music/ngcwele-phenyo-cover', 'Cover artwork for the Ngcwele and Phenyo release by Sonto and Tshepiso.',
   '5zMoA6T7ZIkLamCfhBM4H2', NULL, '[{"platform":"Spotify","url":"https://open.spotify.com/track/5zMoA6T7ZIkLamCfhBM4H2"}]'::jsonb,
-  false, 8, true
+  false, 6, true
 ) on conflict (slug) do update set
   title = excluded.title, artist_display = excluded.artist_display,
   artist_id = excluded.artist_id, release_type = excluded.release_type,

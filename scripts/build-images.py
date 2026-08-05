@@ -61,16 +61,13 @@ emit("source-content/HOME/DIV 2/ChatGPT Image Aug 3, 2026, 12_21_00 AM.png", "ho
 emit("source-content/HOME/DIV 2/Tshepiso Sk.png", "home", "collective-tshepiso-sk", WIDE)
 emit("source-content/HOME/DIV 2/Tetelo M.png", "home", "collective-tetelo-m", WIDE)
 emit("source-content/HOME/DIV 2/Oracle Divine.png", "home", "collective-divine-oracle", WIDE)
-emit("source-content/HOME/DIV 2/Given Mohlala.png", "home", "collective-given-mohlala", WIDE)
 emit("source-content/HOME/DIV 3/Tshepiso Sekhonde.png", "home", "featured-tshepiso-sk", [480, 720, 960, 1254])
 emit("source-content/HOME/DIV 3/Tetelo M.png", "home", "featured-tetelo-m", PORTRAIT)
 emit("source-content/HOME/DIV 3/Oracle Divine.png", "home", "featured-divine-oracle", PORTRAIT)
-emit("source-content/HOME/DIV 3/given Mohlala.png", "home", "featured-given-mohlala", PORTRAIT)
 
 print("artists")
 emit("source-content/ARTISTS/DIV (Hero )/ChatGPT Image Aug 3, 2026, 09_53_44 PM.png", "artists", "roster-hero", WIDE)
 emit("source-content/ARTISTS/Divine Oracle/c6c1e34a-b6fe-4038-bd33-03aeb6d49e7e.png", "artists", "divine-oracle-portrait", PORTRAIT)
-emit("source-content/ARTISTS/Given Mohlala/given mohlala.png", "artists", "given-mohlala-portrait", PORTRAIT)
 emit("source-content/ARTISTS/Tetelo M/ChatGPT Image Aug 3, 2026, 11_58_21 PM.png", "artists", "tetelo-m-portrait", PORTRAIT)
 emit("source-content/ARTISTS/Tshepiso Sk/ChatGPT Image Aug 4, 2026, 12_10_22 AM.png", "artists", "tshepiso-sk-portrait", [480, 720, 960, 1254])
 
@@ -97,9 +94,7 @@ emit("source-content/Services/generated-services-overview.jpg", "services", "ove
 print("events")
 emit("source-content/Events/Gig Guide 2026/ChatGPT Image Aug 5, 2026, 12_15_52 AM.png", "events", "my-hope-conference-2026-poster", POSTER)
 emit("source-content/Events/Gig Guide 2026/Worahip Night Venda.png", "events", "tetelo-m-worship-night-venda-poster", [400, 640, 900, 1122])
-emit("source-content/Events/Gig Guide 2026/ChatGPT Image Aug 5, 2026, 12_34_13 AM.png", "events", "charity-worship-night-2026-poster", [400, 640, 900, 1054])
 emit("source-content/Events/Gig Guide 2026/tshepiso sk  (1).png", "events", "tshepiso-sk-worship-night-burgersfort-poster", POSTER)
-emit("source-content/Events/Gig Guide 2026/Given Mohlala event.png", "events", "worship-therapy-season-3-poster", POSTER)
 emit("source-content/Events/Gig Guide 2026/tshepiso sk  (2).png", "events", "grace-renewed-live-recording-poster", POSTER)
 emit("source-content/Events/Gig Guide 2026/Gospel Concert.png", "events", "tetelo-m-gospel-concert-rustenburg-poster", [400, 640, 900, 1122])
 emit("source-content/Events/Gig Guide 2026/tetelo-m-21st-celebration-burgersfort-2026.png", "events", "tetelo-m-21st-celebration-burgersfort-poster", [400, 640, 900, 1024])
@@ -115,8 +110,6 @@ emit("source-content/HOME/DIV 7/Buwa-Single-by-Tetelo-M-Spotify-08-03-2026_04_06
      "music", "buwa-cover", [320, 480, 711], quality=86)
 emit("source-content/HOME/DIV 7/At-the-Mention-of-Your-Name-Single-by-Tetelo-M-Spotify-08-03-2026_04_08_PM.png",
      "music", "at-the-mention-of-your-name-cover", [320, 480, 574], quality=86)
-emit("source-content/HOME/DIV 7/Given Mohlala o Mogolo.png", "music", "o-mogologolo-cover", [320, 356], quality=88)
-emit("source-content/HOME/DIV 7/ee kea Dumela.png", "music", "ehh-kea-dumela-cover", [320, 426], quality=88)
 emit("source-content/HOME/DIV 7/Sonto-Spotify-08-04-2026_01_36_PM.png", "music", "ngcwele-phenyo-cover", [320, 355], quality=88)
 
 print("news")

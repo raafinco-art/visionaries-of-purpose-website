@@ -55,10 +55,8 @@ candidates only, and were **not** published as organisation contact details:
 
 Event-specific enquiry numbers printed on posters **are** published, attached to
 their own event, because they are the organiser's published contact for that
-event:
-
-- Charity Worship Night: `060 875 5073`, `061 869 9355`
-- Worship Therapy Season 3: `071 331 8575`, `082 476 0160`
+event. None of the currently published events carry one, since the two that did
+were removed with Given Mohlala.
 
 **To publish:** open `src/pages/contact.html`, follow the instructions in the
 `OWNER ACTION REQUIRED` comment, then run `npm run build:pages`.
@@ -72,7 +70,7 @@ event:
 | Facebook (label) | Published: `facebook.com/profile.php?id=61572428274448` |
 | TikTok (label) | **Withheld.** The supplied value `tiktok.com/@visionaries.of.pu` looks truncated and would be a broken link. Confirm the full handle. |
 | Instagram, YouTube (label) | Not supplied |
-| Artist profiles | Published for Tshepiso SK, Tetelo M and Given Mohlala. Divine Oracle has none supplied. |
+| Artist profiles | Published for Tshepiso SK and Tetelo M. Divine Oracle has none supplied. |
 
 ---
 
@@ -88,17 +86,39 @@ Every published figure still needs owner sign-off with evidence.
 
 ---
 
-## 5. Event data
+## 5. Roster change
 
-Recheck all nine events immediately before launch. Currently missing:
+**Given Mohlala left the label on 5 August 2026** and was removed from the site:
+his profile, portraits, social links, booking option, and his two solo live
+singles (O Mogologolo, Ehh Kea Dumela).
+
+Two events went with him: Worship Therapy Season 3 on 3 October, which had a
+live Computicket link, and the Second Annual Charity Worship Night on 28 August,
+where he was one of five artists on Phalane Legacy's poster. **If tickets were
+already sold for 3 October, someone should tell the ticket holders**, since the
+event is no longer listed here.
+
+Retained on purpose:
+
+- **Matthew 7:7 Kokota** stays, credited "Tetelo M ft Given Mohlala". It is
+  Tetelo M's release and the feature credit is accurate on the published record.
+
+**Still showing him:** the home-page collective montage and the artists roster
+hero are group photographs that include him, top right in sunglasses. He sits
+diagonally opposite Tshepiso SK, so the images cannot be cropped. They need
+replacing or re-shooting. **This is unresolved.**
+
+---
+
+## 6. Event data
+
+Recheck all seven events immediately before launch. Currently missing:
 
 | Event | Missing |
 |---|---|
 | My Hope Conference, 9 Aug | Session end times; free-registration URL, so no register button is rendered |
 | Worship Night, Venda, 24 Aug | Start time, venue |
-| Charity Worship Night, 28 Aug | End time is published as the stated "until late" |
 | Worship Night, Burgersfort, 26 Sep | Start time, venue |
-| Worship Therapy Season 3, 3 Oct | End time |
 | Grace Renewed, 14 Nov | Start time, venue |
 | Gospel Concert, Rustenburg, 28 Nov | Start time, venue |
 | 21st Celebration, Burgersfort, 23 Dec | Start time, venue |
@@ -113,7 +133,7 @@ set. Confirm it is approved for publication.
 
 ---
 
-## 6. Music
+## 7. Music
 
 The supplied track list names **Ngcwelele**. The release artwork reads
 **NGCWELE**. The site follows the artwork. Confirm the correct spelling.
@@ -122,7 +142,7 @@ Confirm that album artwork and platform screenshots may be used on the website.
 
 ---
 
-## 7. News
+## 8. News
 
 - **Published:** the Tshepiso SK community outreach story. It carries **no
   publication date**, because none was supplied, and therefore has **no**
@@ -136,7 +156,7 @@ with specific approval for any image involving children.
 
 ---
 
-## 8. Values themes
+## 9. Values themes
 
 The twelve supplied values are published in full, grouped into four themes:
 purpose and vision, standard and discipline, faith and character, people and
@@ -145,7 +165,7 @@ proposal and needs owner approval.**
 
 ---
 
-## 9. Technical configuration
+## 10. Technical configuration
 
 | Item | Status |
 |---|---|
@@ -161,7 +181,7 @@ proposal and needs owner approval.**
 
 ---
 
-## 10. Legal review
+## 11. Legal review
 
 `/privacy/` and `/cookies/` carry `noindex` and are listed in `robots.txt` as
 disallowed until review is complete. Both pages display the outstanding items

@@ -21,7 +21,7 @@ const ENQUIRY_TYPES = new Set([
 ]);
 
 const ARTIST_SLUGS = new Set([
-  'tshepiso-sk', 'tetelo-m', 'given-mohlala', 'divine-oracle',
+  'tshepiso-sk', 'tetelo-m', 'divine-oracle',
 ]);
 
 const SERVICE_SLUGS = new Set([

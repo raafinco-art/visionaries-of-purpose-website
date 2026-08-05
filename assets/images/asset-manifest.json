@@ -158,37 +158,6 @@
       ]
     },
     {
-      "source": "source-content/HOME/DIV 2/Given Mohlala.png",
-      "section": "home",
-      "name": "collective-given-mohlala",
-      "intrinsic": {
-        "width": 1672,
-        "height": 941
-      },
-      "renditions": [
-        {
-          "width": 640,
-          "height": 360,
-          "path": "assets/images/home/collective-given-mohlala-640.webp"
-        },
-        {
-          "width": 960,
-          "height": 540,
-          "path": "assets/images/home/collective-given-mohlala-960.webp"
-        },
-        {
-          "width": 1280,
-          "height": 720,
-          "path": "assets/images/home/collective-given-mohlala-1280.webp"
-        },
-        {
-          "width": 1672,
-          "height": 941,
-          "path": "assets/images/home/collective-given-mohlala-1672.webp"
-        }
-      ]
-    },
-    {
       "source": "source-content/HOME/DIV 3/Tshepiso Sekhonde.png",
       "section": "home",
       "name": "featured-tshepiso-sk",
@@ -282,37 +251,6 @@
       ]
     },
     {
-      "source": "source-content/HOME/DIV 3/given Mohlala.png",
-      "section": "home",
-      "name": "featured-given-mohlala",
-      "intrinsic": {
-        "width": 1122,
-        "height": 1402
-      },
-      "renditions": [
-        {
-          "width": 480,
-          "height": 600,
-          "path": "assets/images/home/featured-given-mohlala-480.webp"
-        },
-        {
-          "width": 720,
-          "height": 900,
-          "path": "assets/images/home/featured-given-mohlala-720.webp"
-        },
-        {
-          "width": 960,
-          "height": 1200,
-          "path": "assets/images/home/featured-given-mohlala-960.webp"
-        },
-        {
-          "width": 1122,
-          "height": 1402,
-          "path": "assets/images/home/featured-given-mohlala-1122.webp"
-        }
-      ]
-    },
-    {
       "source": "source-content/ARTISTS/DIV (Hero )/ChatGPT Image Aug 3, 2026, 09_53_44 PM.png",
       "section": "artists",
       "name": "roster-hero",
@@ -371,37 +309,6 @@
           "width": 1122,
           "height": 1402,
           "path": "assets/images/artists/divine-oracle-portrait-1122.webp"
-        }
-      ]
-    },
-    {
-      "source": "source-content/ARTISTS/Given Mohlala/given mohlala.png",
-      "section": "artists",
-      "name": "given-mohlala-portrait",
-      "intrinsic": {
-        "width": 1122,
-        "height": 1402
-      },
-      "renditions": [
-        {
-          "width": 480,
-          "height": 600,
-          "path": "assets/images/artists/given-mohlala-portrait-480.webp"
-        },
-        {
-          "width": 720,
-          "height": 900,
-          "path": "assets/images/artists/given-mohlala-portrait-720.webp"
-        },
-        {
-          "width": 960,
-          "height": 1200,
-          "path": "assets/images/artists/given-mohlala-portrait-960.webp"
-        },
-        {
-          "width": 1122,
-          "height": 1402,
-          "path": "assets/images/artists/given-mohlala-portrait-1122.webp"
         }
       ]
     },
@@ -971,37 +878,6 @@
       ]
     },
     {
-      "source": "source-content/Events/Gig Guide 2026/ChatGPT Image Aug 5, 2026, 12_34_13 AM.png",
-      "section": "events",
-      "name": "charity-worship-night-2026-poster",
-      "intrinsic": {
-        "width": 1054,
-        "height": 1492
-      },
-      "renditions": [
-        {
-          "width": 400,
-          "height": 566,
-          "path": "assets/images/events/charity-worship-night-2026-poster-400.webp"
-        },
-        {
-          "width": 640,
-          "height": 906,
-          "path": "assets/images/events/charity-worship-night-2026-poster-640.webp"
-        },
-        {
-          "width": 900,
-          "height": 1274,
-          "path": "assets/images/events/charity-worship-night-2026-poster-900.webp"
-        },
-        {
-          "width": 1054,
-          "height": 1492,
-          "path": "assets/images/events/charity-worship-night-2026-poster-1054.webp"
-        }
-      ]
-    },
-    {
       "source": "source-content/Events/Gig Guide 2026/tshepiso sk  (1).png",
       "section": "events",
       "name": "tshepiso-sk-worship-night-burgersfort-poster",
@@ -1029,37 +905,6 @@
           "width": 1086,
           "height": 1448,
           "path": "assets/images/events/tshepiso-sk-worship-night-burgersfort-poster-1086.webp"
-        }
-      ]
-    },
-    {
-      "source": "source-content/Events/Gig Guide 2026/Given Mohlala event.png",
-      "section": "events",
-      "name": "worship-therapy-season-3-poster",
-      "intrinsic": {
-        "width": 1086,
-        "height": 1448
-      },
-      "renditions": [
-        {
-          "width": 400,
-          "height": 533,
-          "path": "assets/images/events/worship-therapy-season-3-poster-400.webp"
-        },
-        {
-          "width": 640,
-          "height": 853,
-          "path": "assets/images/events/worship-therapy-season-3-poster-640.webp"
-        },
-        {
-          "width": 900,
-          "height": 1200,
-          "path": "assets/images/events/worship-therapy-season-3-poster-900.webp"
-        },
-        {
-          "width": 1086,
-          "height": 1448,
-          "path": "assets/images/events/worship-therapy-season-3-poster-1086.webp"
         }
       ]
     },
@@ -1319,48 +1164,6 @@
           "width": 574,
           "height": 578,
           "path": "assets/images/music/at-the-mention-of-your-name-cover-574.webp"
-        }
-      ]
-    },
-    {
-      "source": "source-content/HOME/DIV 7/Given Mohlala o Mogolo.png",
-      "section": "music",
-      "name": "o-mogologolo-cover",
-      "intrinsic": {
-        "width": 356,
-        "height": 354
-      },
-      "renditions": [
-        {
-          "width": 320,
-          "height": 318,
-          "path": "assets/images/music/o-mogologolo-cover-320.webp"
-        },
-        {
-          "width": 356,
-          "height": 354,
-          "path": "assets/images/music/o-mogologolo-cover-356.webp"
-        }
-      ]
-    },
-    {
-      "source": "source-content/HOME/DIV 7/ee kea Dumela.png",
-      "section": "music",
-      "name": "ehh-kea-dumela-cover",
-      "intrinsic": {
-        "width": 426,
-        "height": 427
-      },
-      "renditions": [
-        {
-          "width": 320,
-          "height": 321,
-          "path": "assets/images/music/ehh-kea-dumela-cover-320.webp"
-        },
-        {
-          "width": 426,
-          "height": 427,
-          "path": "assets/images/music/ehh-kea-dumela-cover-426.webp"
         }
       ]
     },

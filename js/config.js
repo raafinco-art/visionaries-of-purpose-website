@@ -55,7 +55,6 @@ export const ENQUIRY_TYPES = Object.freeze([
 export const ARTIST_SLUGS = Object.freeze([
   'tshepiso-sk',
   'tetelo-m',
-  'given-mohlala',
   'divine-oracle',
 ]);
 

@@ -90,17 +90,10 @@
   <main id="main-content">
     <!-- Hero -->
     <section class="page-hero page-hero--compact">
-      <div class="page-hero__media">
-        <img
-          src="/assets/images/services/hero-1280.webp"
-          srcset="/assets/images/services/hero-640.webp 640w,
-                  /assets/images/services/hero-960.webp 960w,
-                  /assets/images/services/hero-1280.webp 1280w,
-                  /assets/images/services/hero-1800.webp 1800w"
-          sizes="100vw"
-          width="1800" height="828"
-          alt="A live production stage with sound, lighting and LED screens in operation."
-          fetchpriority="high" decoding="async">
+      <div
+        class="page-hero__media page-hero__media--services"
+        role="img"
+        aria-label="A live production stage with sound, lighting and LED screens in operation.">
       </div>
       <div class="page-hero__scrim"></div>
 
@@ -144,10 +137,11 @@
       </div>
     </section>
 
-    <div class="shell">
+    <div class="services-showcase">
       <!-- 1. Event Management -->
-      <section class="service" id="service-event-management" aria-labelledby="event-management-title">
-        <div class="service__body" data-reveal>
+      <section class="service service--event-management" id="service-event-management" aria-labelledby="event-management-title">
+        <div class="shell service__inner">
+          <div class="service__body" data-reveal>
           <p class="type-label">Built to run beautifully</p>
           <h2 id="event-management-title" class="type-heading-section">Every detail. One powerful experience.</h2>
           <p class="type-body type-muted">
@@ -163,22 +157,14 @@
             <li>Artist and programme support</li>
           </ul>
           <p><a class="btn btn--primary" href="/contact/?type=service&amp;service=event-management">Plan your event</a></p>
-        </div>
-        <div class="service__media" data-reveal>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="An event management team coordinating a live production."
-            data-service-background
-            data-background-key="event-management"
-            style="--service-image-ratio: 13 / 10;">
           </div>
         </div>
       </section>
 
       <!-- 2. Artist Bookings and Management -->
-      <section class="service" id="service-artist-bookings" aria-labelledby="artist-bookings-title">
-        <div class="service__body" data-reveal>
+      <section class="service service--artist-bookings" id="service-artist-bookings" aria-labelledby="artist-bookings-title">
+        <div class="shell service__inner">
+          <div class="service__body" data-reveal>
           <p class="type-label">The right talent. The right moment.</p>
           <h2 id="artist-bookings-title" class="type-heading-section">Artists who move the room</h2>
           <p class="type-body type-muted">
@@ -191,22 +177,14 @@
             and memorable.
           </p>
           <p><a class="btn btn--primary" href="/contact/?type=service&amp;service=artist-bookings">Book an artist</a></p>
-        </div>
-        <div class="service__media" data-reveal>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="An artist performing to a live audience."
-            data-service-background
-            data-background-key="artist-bookings"
-            style="--service-image-ratio: 45 / 19;">
           </div>
         </div>
       </section>
 
       <!-- 3. Live Band Performance -->
-      <section class="service" id="service-live-band-performance" aria-labelledby="live-band-title">
-        <div class="service__body" data-reveal>
+      <section class="service service--live-band-performance" id="service-live-band-performance" aria-labelledby="live-band-title">
+        <div class="shell service__inner">
+          <div class="service__body" data-reveal>
           <p class="type-label">Live sound. Real energy.</p>
           <h2 id="live-band-title" class="type-heading-section">Turn every stage into a moment</h2>
           <p class="type-body type-muted">
@@ -231,38 +209,14 @@
           </div>
 
           <p><a class="btn btn--primary" href="/contact/?type=service&amp;service=live-band-performance">Book the band</a></p>
-        </div>
-        <div class="service__media service__media--trio" data-reveal>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="A live worship band performing on stage."
-            data-service-background
-            data-background-key="live-band-worship"
-            style="--service-image-ratio: 5 / 4;">
-          </div>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="A live band playing at a corporate event."
-            data-service-background
-            data-background-key="live-band-corporate"
-            style="--service-image-ratio: 5 / 4;">
-          </div>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="A live band performing at a celebration."
-            data-service-background
-            data-background-key="live-band-celebration"
-            style="--service-image-ratio: 5 / 4;">
           </div>
         </div>
       </section>
 
       <!-- 4. Sound Production -->
-      <section class="service" id="service-sound-production" aria-labelledby="sound-title">
-        <div class="service__body" data-reveal>
+      <section class="service service--sound-production" id="service-sound-production" aria-labelledby="sound-title">
+        <div class="shell service__inner">
+          <div class="service__body" data-reveal>
           <p class="type-label">Power you can feel. Clarity you can trust.</p>
           <h2 id="sound-title" class="type-heading-section">Every word. Every note. Crystal clear.</h2>
           <p class="type-body type-muted">
@@ -278,22 +232,14 @@
             <li>Technical coordination throughout the event</li>
           </ul>
           <p><a class="btn btn--primary" href="/contact/?type=service&amp;service=sound-production">Get a sound quote</a></p>
-        </div>
-        <div class="service__media" data-reveal>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="A sound engineer mixing live audio at a production desk."
-            data-service-background
-            data-background-key="sound-production"
-            style="--service-image-ratio: 4 / 3;">
           </div>
         </div>
       </section>
 
       <!-- 5. Lighting Production -->
-      <section class="service" id="service-lighting-production" aria-labelledby="lighting-title">
-        <div class="service__body" data-reveal>
+      <section class="service service--lighting-production" id="service-lighting-production" aria-labelledby="lighting-title">
+        <div class="shell service__inner">
+          <div class="service__body" data-reveal>
           <p class="type-label">Set the mood. Command attention.</p>
           <h2 id="lighting-title" class="type-heading-section">Light that brings the experience to life</h2>
           <p class="type-body type-muted">
@@ -308,22 +254,14 @@
             <li>Lighting setup and live technical support</li>
           </ul>
           <p><a class="btn btn--primary" href="/contact/?type=service&amp;service=lighting-production">Light up your event</a></p>
-        </div>
-        <div class="service__media" data-reveal>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="Stage lighting rig casting colour across a live performance."
-            data-service-background
-            data-background-key="lighting-production"
-            style="--service-image-ratio: 80 / 37;">
           </div>
         </div>
       </section>
 
       <!-- 6. Stage Supply -->
-      <section class="service" id="service-stage-supply" aria-labelledby="stage-title">
-        <div class="service__body" data-reveal>
+      <section class="service service--stage-supply" id="service-stage-supply" aria-labelledby="stage-title">
+        <div class="shell service__inner">
+          <div class="service__body" data-reveal>
           <p class="type-label">Built for the moment</p>
           <h2 id="stage-title" class="type-heading-section">A strong stage for a powerful experience</h2>
           <p class="type-body type-muted">
@@ -338,22 +276,14 @@
             <li>Setup coordination for your event space</li>
           </ul>
           <p><a class="btn btn--primary" href="/contact/?type=service&amp;service=stage-supply">Build your stage</a></p>
-        </div>
-        <div class="service__media" data-reveal>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="A constructed event stage ready for a live production."
-            data-service-background
-            data-background-key="stage-supply"
-            style="--service-image-ratio: 25 / 16;">
           </div>
         </div>
       </section>
 
       <!-- 7. LED Screens -->
-      <section class="service" id="service-led-screens" aria-labelledby="led-title">
-        <div class="service__body" data-reveal>
+      <section class="service service--led-screens" id="service-led-screens" aria-labelledby="led-title">
+        <div class="shell service__inner">
+          <div class="service__body" data-reveal>
           <p class="type-label">Make every moment larger</p>
           <h2 id="led-title" class="type-heading-section">Bold visuals that hold attention</h2>
           <p class="type-body type-muted">
@@ -368,30 +298,14 @@
             <li>Screen setup and technical support</li>
           </ul>
           <p><a class="btn btn--primary" href="/contact/?type=service&amp;service=led-screens">Enquire about LED</a></p>
-        </div>
-        <div class="service__media service__media--pair" data-reveal>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="An LED screen displaying live visuals at a performance."
-            data-service-background
-            data-background-key="led-screens-live"
-            style="--service-image-ratio: 16 / 25;">
-          </div>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="An LED screen showing presentation content at a corporate event."
-            data-service-background
-            data-background-key="led-screens-corporate"
-            style="--service-image-ratio: 16 / 25;">
           </div>
         </div>
       </section>
 
       <!-- 8. Backline and PA Hire -->
-      <section class="service" id="service-backline-pa-hire" aria-labelledby="backline-title">
-        <div class="service__body" data-reveal>
+      <section class="service service--backline-pa-hire" id="service-backline-pa-hire" aria-labelledby="backline-title">
+        <div class="shell service__inner">
+          <div class="service__body" data-reveal>
           <p class="type-label">Plug in. Power up. Perform.</p>
           <h2 id="backline-title" class="type-heading-section">The gear your stage needs</h2>
           <p class="type-body type-muted">
@@ -406,15 +320,6 @@
             <li>Microphones, speakers and essential audio gear</li>
           </ul>
           <p><a class="btn btn--primary" href="/contact/?type=service&amp;service=backline-pa-hire">Hire backline and PA</a></p>
-        </div>
-        <div class="service__media" data-reveal>
-          <div
-            class="service__image"
-            role="img"
-            aria-label="Backline equipment and PA speakers set up on stage."
-            data-service-background
-            data-background-key="backline-pa-hire"
-            style="--service-image-ratio: 80 / 47;">
           </div>
         </div>
       </section>
