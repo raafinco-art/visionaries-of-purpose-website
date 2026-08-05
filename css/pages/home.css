@@ -1,0 +1,252 @@
+@layer pages {
+  /* ---- Hero ---- */
+  .home-hero {
+    min-height: min(88svh, 50rem);
+  }
+
+  .home-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-block-start: 0.5rem;
+  }
+
+  @media (width <= 32rem) {
+    .home-hero__actions .btn {
+      width: 100%;
+    }
+  }
+
+  /* Compact scroll cue. Stops entirely under reduced motion. */
+  .scroll-cue {
+    display: none;
+    position: absolute;
+    inset-block-end: 1.75rem;
+    inset-inline-end: var(--page-gutter);
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-utility);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-muted-dark);
+  }
+
+  @media (width >= 62rem) {
+    .scroll-cue {
+      display: flex;
+    }
+  }
+
+  .scroll-cue__line {
+    display: block;
+    width: 1px;
+    height: 2.75rem;
+    background: linear-gradient(180deg, var(--accent-metal), transparent);
+    transform-origin: top;
+    animation: cue-drop 2.6s var(--ease-in-out) infinite;
+  }
+
+  @keyframes cue-drop {
+    0%,
+    100% { transform: scaleY(0.4); opacity: 0.5; }
+    50% { transform: scaleY(1); opacity: 1; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .scroll-cue__line {
+      animation: none;
+      transform: scaleY(1);
+    }
+  }
+
+  /* ---- Collective introduction: editorial, not a card ---- */
+  .collective {
+    display: grid;
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: center;
+  }
+
+  @media (width >= 62rem) {
+    .collective {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    }
+  }
+
+  .collective__media {
+    position: relative;
+    border-radius: var(--radius-panel);
+    overflow: hidden;
+    box-shadow: 0 30px 70px rgb(0 0 0 / 55%);
+  }
+
+  .collective__media img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* A single gold rule offsets the copy block from the montage. */
+  .collective__body {
+    position: relative;
+    padding-inline-start: clamp(1rem, 2.5vw, 2rem);
+    border-inline-start: 1px solid var(--border-gold);
+  }
+
+  /* ---- Featured artists: one lead profile, three supporting ---- */
+  .lead-artist {
+    display: grid;
+    gap: clamp(1.5rem, 3.5vw, 2.75rem);
+    align-items: center;
+  }
+
+  @media (width >= 48rem) {
+    .lead-artist {
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    }
+  }
+
+  .lead-artist__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .support-artist {
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    gap: 1rem;
+    align-items: center;
+    padding: 0.9rem;
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius-card);
+    background: linear-gradient(158deg, rgb(30 23 25 / 78%), rgb(9 7 7 / 92%));
+    transition: border-color var(--motion-fast), transform var(--motion-fast), background-color var(--motion-fast);
+  }
+
+  .support-artist:hover,
+  .support-artist:focus-within {
+    border-color: var(--border-gold);
+    transform: translateY(-2px);
+  }
+
+  .support-artist__media {
+    aspect-ratio: 4 / 5;
+    border-radius: var(--radius-input);
+    overflow: hidden;
+    background: #0a0809;
+  }
+
+  .support-artist__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 22%;
+  }
+
+  .support-artist__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 0;
+  }
+
+  /* Full-cell link so the whole row is selectable without nesting controls. */
+  .stretch-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  .support-artist,
+  .card--interactive {
+    position: relative;
+  }
+
+  /* ---- Latest release ---- */
+  .latest-release {
+    display: grid;
+    gap: clamp(1.5rem, 4vw, 3rem);
+    align-items: center;
+  }
+
+  @media (width >= 56rem) {
+    .latest-release {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    }
+  }
+
+  .latest-release__cover {
+    max-width: 26rem;
+    aspect-ratio: 1;
+    border-radius: var(--radius-panel);
+    overflow: hidden;
+    border: 1px solid var(--border-dark-strong);
+    background: #0a0809;
+    box-shadow:
+      0 30px 70px rgb(0 0 0 / 58%),
+      inset 0 1px 0 rgb(255 255 255 / 10%);
+  }
+
+  .latest-release__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* ---- Featured events pair ---- */
+  .featured-events {
+    display: grid;
+    gap: clamp(1.5rem, 3vw, 2.5rem);
+  }
+
+  @media (width >= 62rem) {
+    .featured-events {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .featured-event {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 0;
+  }
+
+  .featured-event__poster {
+    aspect-ratio: 3 / 4;
+    max-height: 26rem;
+  }
+
+  .featured-event__poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 18%;
+  }
+
+  .featured-event__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: clamp(1.15rem, 2.4vw, 1.6rem);
+  }
+
+  .featured-event__head {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  /* ---- Newsletter close ---- */
+  .newsletter-close {
+    display: grid;
+    gap: clamp(1.5rem, 4vw, 3rem);
+    align-items: start;
+  }
+
+  @media (width >= 56rem) {
+    .newsletter-close {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+  }
+}

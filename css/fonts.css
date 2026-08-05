@@ -1,0 +1,121 @@
+/*
+ * Self-hosted brand typefaces. Licences are kept in assets/fonts/licences/.
+ *   Cabinet Grotesk  - Fontshare Free Font Licence (FFL)
+ *   Barlow Condensed - SIL Open Font Licence 1.1
+ *   Bodoni Moda      - SIL Open Font Licence 1.1
+ *
+ * All files are subset to Latin, Latin-1, Latin Extended-A/B and Latin
+ * Extended Additional so South African language diacritics still render.
+ * Only the Cabinet Grotesk variable file is preloaded in the document head.
+ */
+
+/* ---- Cabinet Grotesk: primary brand voice (about 65% of the site) ---- */
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("/assets/fonts/cabinet-grotesk/CabinetGrotesk-Variable.woff2") format("woff2-variations"),
+       url("/assets/fonts/cabinet-grotesk/CabinetGrotesk-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Static fallbacks for browsers without variable-font support. */
+@font-face {
+  font-family: "Cabinet Grotesk Static";
+  src: url("/assets/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cabinet Grotesk Static";
+  src: url("/assets/fonts/cabinet-grotesk/CabinetGrotesk-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cabinet Grotesk Static";
+  src: url("/assets/fonts/cabinet-grotesk/CabinetGrotesk-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cabinet Grotesk Static";
+  src: url("/assets/fonts/cabinet-grotesk/CabinetGrotesk-Extrabold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cabinet Grotesk Static";
+  src: url("/assets/fonts/cabinet-grotesk/CabinetGrotesk-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---- Bodoni Moda: editorial prestige (about 15%) ---- */
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("/assets/fonts/bodoni-moda/BodoniModa-Variable.woff2") format("woff2-variations"),
+       url("/assets/fonts/bodoni-moda/BodoniModa-Variable.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("/assets/fonts/bodoni-moda/BodoniModa-Italic-Variable.woff2") format("woff2-variations"),
+       url("/assets/fonts/bodoni-moda/BodoniModa-Italic-Variable.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---- Barlow Condensed: dates, venues and technical metadata (about 20%) ---- */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/assets/fonts/barlow-condensed/BarlowCondensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/assets/fonts/barlow-condensed/BarlowCondensed-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/assets/fonts/barlow-condensed/BarlowCondensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/assets/fonts/barlow-condensed/BarlowCondensed-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/assets/fonts/barlow-condensed/BarlowCondensed-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

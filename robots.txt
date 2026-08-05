@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# The privacy and cookie notices are excluded from indexing until the owner
+# and legal review are complete. Remove these two lines at that point.
+Disallow: /privacy/
+Disallow: /cookies/
+
+# Sitemap: add the absolute URL once the production domain is confirmed.
+# Run `npm run set-domain -- https://your-domain.co.za` to stamp it in.

@@ -1,0 +1,25 @@
+/*
+ * Visionaries of Purpose - stylesheet entry point.
+ *
+ * The layer order is declared before anything is imported so each file can
+ * be authored in any order without specificity fights. Page files only ever
+ * hold composition that is genuinely specific to one route.
+ */
+@layer reset, tokens, base, layout, components, utilities, pages, overrides;
+
+@import url("./fonts.css");
+@import url("./reset.css");
+@import url("./tokens.css");
+@import url("./base.css");
+@import url("./layout.css");
+@import url("./components.css");
+@import url("./utilities.css");
+@import url("./pages/home.css");
+@import url("./pages/about.css");
+@import url("./pages/artists.css");
+@import url("./pages/services.css");
+@import url("./pages/events.css");
+@import url("./pages/music.css");
+@import url("./pages/news.css");
+@import url("./pages/contact.css");
+@import url("./pages/legal.css");

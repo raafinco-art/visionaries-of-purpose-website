@@ -1,0 +1,154 @@
+TETELO M — UPCOMING EVENTS
+
+Tetelo M is a featured Vissionaries of Purpose artist.
+
+Only the remaining upcoming events from the 2026 Gig Guide must appear.
+Events dated before 3 August 2026 are excluded because they have already passed.
+
+==================================================
+24 AUGUST 2026
+==================================================
+
+EVENT:
+Worship Night
+
+LOCATION:
+Venda
+
+EVENT IMAGE:
+/images/events/tetelo-m-worship-night-venda-august-2026.jpg
+
+FALLBACK IMAGE:
+/images/events/tetelo-m-gig-guide-2026.jpg
+
+DETAILS COPY:
+Join Tetelo M for a Worship Night in Venda on 24 August 2026.
+
+GET TICKETS BUTTON:
+Hidden because no ticket or booking link is available.
+
+ADD TO CALENDAR:
+Title: Tetelo M — Worship Night
+Date: 24 August 2026
+Location: Venda
+Description: Join Tetelo M for a Worship Night in Venda.
+Ticket link: None
+
+
+==================================================
+28 NOVEMBER 2026
+==================================================
+
+EVENT:
+Gospel Concert
+
+LOCATION:
+Rustenburg
+
+EVENT IMAGE:
+/images/events/tetelo-m-gospel-concert-rustenburg-november-2026.jpg
+
+FALLBACK IMAGE:
+/images/events/tetelo-m-gig-guide-2026.jpg
+
+DETAILS COPY:
+See Tetelo M at the Gospel Concert in Rustenburg on 28 November 2026.
+
+GET TICKETS BUTTON:
+Hidden because no ticket or booking link is available.
+
+ADD TO CALENDAR:
+Title: Tetelo M — Gospel Concert
+Date: 28 November 2026
+Location: Rustenburg
+Description: See Tetelo M at the Gospel Concert in Rustenburg.
+Ticket link: None
+
+
+==================================================
+23 DECEMBER 2026
+==================================================
+
+EVENT:
+21st Celebration
+
+LOCATION:
+Burgersfort
+
+EVENT IMAGE:
+/images/events/tetelo-m-21st-celebration-burgersfort-december-2026.jpg
+
+FALLBACK IMAGE:
+/images/events/tetelo-m-gig-guide-2026.jpg
+
+DETAILS COPY:
+Join Tetelo M for the 21st Celebration in Burgersfort on 23 December 2026.
+
+GET TICKETS BUTTON:
+Hidden because no ticket or booking link is available.
+
+ADD TO CALENDAR:
+Title: Tetelo M — 21st Celebration
+Date: 23 December 2026
+Location: Burgersfort
+Description: Join Tetelo M for the 21st Celebration in Burgersfort.
+Ticket link: None
+
+
+==================================================
+28 DECEMBER 2026
+==================================================
+
+EVENT:
+Gospel Festival
+
+LOCATION:
+Polokwane
+
+EVENT IMAGE:
+/images/events/tetelo-m-gospel-festival-polokwane-december-2026.jpg
+
+FALLBACK IMAGE:
+/images/events/tetelo-m-gig-guide-2026.jpg
+
+DETAILS COPY:
+See Tetelo M at the Gospel Festival in Polokwane on 28 December 2026.
+
+GET TICKETS BUTTON:
+Hidden because no ticket or booking link is available.
+
+ADD TO CALENDAR:
+Title: Tetelo M — Gospel Festival
+Date: 28 December 2026
+Location: Polokwane
+Description: See Tetelo M at the Gospel Festival in Polokwane.
+Ticket link: None
+
+
+==================================================
+UPCOMING EVENTS BLOCK BEHAVIOUR
+==================================================
+
+The large block on the left displays the active event image.
+
+When the active event changes:
+- Change the image on the left.
+- Change the date, title, location and details on the right.
+- Update the Add to Calendar button with the active event's details.
+- Keep the Get Tickets button hidden because no Tetelo M ticket links were supplied.
+- Do not show an empty, disabled or placeholder ticket button.
+- Order events chronologically, starting with the closest upcoming date.
+- Remove or archive an event after its date has passed.
+
+Until individual event artwork is available, use this shared fallback:
+ /images/events/tetelo-m-gig-guide-2026.jpg
+
+
+==================================================
+EXCLUDED PAST EVENTS
+==================================================
+
+18–19 July 2026 — The Father's Voice Conference, Steelpoort
+24 July 2026 — Anniversary Celebration, Midrand
+25 July 2026 — Women of Influence High Tea Conference, Midrand
+1 August 2026 — Corporate Book Launch, Fusion Hotel Polokwane

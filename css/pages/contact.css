@@ -1,0 +1,107 @@
+@layer pages {
+  /* Contact details first in DOM order, form beside them on wide screens. */
+  .contact-layout {
+    display: grid;
+    gap: clamp(1.75rem, 4vw, 3rem);
+    align-items: start;
+  }
+
+  @media (width >= 62rem) {
+    .contact-layout {
+      grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    }
+  }
+
+  .contact-details {
+    display: grid;
+    gap: var(--space-m);
+  }
+
+  .contact-method {
+    display: grid;
+    gap: 0.25rem;
+    padding-block: 0.9rem;
+    border-block-end: 1px solid var(--border-dark);
+  }
+
+  .contact-method__label {
+    font-family: var(--font-utility);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-metal);
+  }
+
+  .contact-method__value {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    word-break: break-word;
+  }
+
+  .contact-method__value:hover {
+    text-decoration: underline;
+  }
+
+  /* WhatsApp is the most immediate route and sits beside the form action. */
+  .whatsapp-btn {
+    --wa: #25d366;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    min-height: 3.25rem;
+    padding: 0.85rem 1.5rem;
+    border: 1px solid rgb(255 255 255 / 20%);
+    border-radius: var(--radius-control);
+    font-family: var(--font-brand);
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #06301a;
+    background:
+      radial-gradient(ellipse 70% 100% at 30% 0%, rgb(255 255 255 / 34%), transparent 62%),
+      linear-gradient(168deg, #3ff07e 0%, var(--wa) 48%, #16a34a 100%);
+    box-shadow:
+      8px 10px 22px rgb(0 0 0 / 50%),
+      inset 0 1px 0 rgb(255 255 255 / 45%),
+      inset 0 -2px 4px rgb(4 60 30 / 45%);
+    transition: transform var(--motion-fast) var(--ease-out), box-shadow var(--motion-fast) var(--ease-out);
+  }
+
+  .whatsapp-btn:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      10px 14px 30px rgb(0 0 0 / 55%),
+      0 12px 32px rgb(37 211 102 / 24%),
+      inset 0 1px 0 rgb(255 255 255 / 50%),
+      inset 0 -2px 4px rgb(4 60 30 / 45%);
+  }
+
+  .whatsapp-btn:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-pressed);
+  }
+
+  .whatsapp-btn svg {
+    width: 1.35rem;
+    height: 1.35rem;
+    fill: currentcolor;
+    flex: none;
+  }
+
+  .contact-form-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-block-start: 0.35rem;
+  }
+
+  /* Shown only when an enquiry type needs a follow-up choice. */
+  .conditional-field[hidden] {
+    display: none;
+  }
+}

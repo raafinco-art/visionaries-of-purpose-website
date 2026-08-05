@@ -1,0 +1,243 @@
+<!--meta
+{
+  "route": "/cookies/",
+  "out": "cookies/index.html",
+  "nav": "",
+  "bodyClass": "legal-page",
+  "noindex": true,
+  "title": "Cookie Information | Visionaries of Purpose",
+  "ogTitle": "Cookie Information",
+  "description": "How Visionaries of Purpose uses browser storage, what optional third-party media does, and how to change or withdraw your consent at any time."
+}
+meta-->
+
+<section class="section" style="padding-block-start: clamp(7rem, 12vw, 9rem);">
+  <div class="shell">
+    <nav class="breadcrumbs" aria-label="Breadcrumb" style="margin-block-end: 2rem;">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">Cookie Information</li>
+      </ol>
+    </nav>
+
+    <div class="stack" style="max-width: 48rem;">
+      <p class="type-label" style="color: var(--brand-burgundy);">Legal</p>
+      <h1 class="type-heading-primary">Cookie Information</h1>
+      <p class="type-intro">
+        This website uses limited browser storage and similar technologies to provide essential
+        functions, remember your choices and, only when you choose, load media from third-party
+        platforms.
+      </p>
+      <p class="legal-meta">
+        <span>Effective date: 5 August 2026</span>
+        <span>Consent version: cookies-2026-08-05</span>
+      </p>
+    </div>
+  </div>
+</section>
+<div data-header-sentinel aria-hidden="true"></div>
+
+<section class="section section--flush-top">
+  <div class="shell legal-layout">
+    <nav class="legal-toc" aria-label="On this page">
+      <p class="legal-toc__heading">On this page</p>
+      <ol>
+        <li><a href="#default-position">Our default position</a></li>
+        <li><a href="#consent-settings">Your choices</a></li>
+        <li><a href="#categories">Categories we use</a></li>
+        <li><a href="#third-party-media">Third-party media</a></li>
+        <li><a href="#form-security">Form security</a></li>
+        <li><a href="#changing">Changing or clearing a choice</a></li>
+        <li><a href="#browser-signals">Browser signals</a></li>
+        <li><a href="#changes">Changes and contact</a></li>
+      </ol>
+    </nav>
+
+    <div class="prose legal-body">
+      <div class="owner-todo">
+        <p class="owner-todo__label">Pending final review</p>
+        <p>
+          This notice describes the implemented behaviour, but the production site must still be
+          scanned in a clean browser profile and every provider confirmed before publication. The
+          page is excluded from search indexing until that is done.
+        </p>
+      </div>
+
+      <p>
+        Cookies are small text files stored by a website or service. Similar technologies include
+        local storage, pixels and identifiers used by embedded services. Some related data may be
+        personal information under South Africa's Protection of Personal Information Act.
+      </p>
+
+      <h2 id="default-position">Our default position</h2>
+      <ul>
+        <li>Necessary website functions may operate without optional consent.</li>
+        <li>No analytics or advertising tracker is used.</li>
+        <li>
+          YouTube, Spotify and Apple media remains a local placeholder until you activate it and the
+          required media choice is present.
+        </li>
+        <li>
+          Rejecting optional media does not block access to page copy, event details, artist
+          information, contact information or external privacy-friendly links.
+        </li>
+        <li>Consent is granular, reversible and versioned.</li>
+      </ul>
+
+      <h2 id="consent-settings" tabindex="-1">Your choices</h2>
+      <p>
+        Change your choice at any time using the controls below. You can also reopen them from the
+        <strong>Cookie settings</strong> link in the footer of every page.
+      </p>
+
+      <div class="consent-controls" data-consent-settings>
+        <div class="consent-switch">
+          <input type="checkbox" id="consent-necessary" checked disabled>
+          <label for="consent-necessary">Strictly necessary</label>
+          <p>
+            Required to run the site securely, deliver form submissions and remember the choice you
+            make here. These cannot be switched off.
+          </p>
+        </div>
+
+        <div class="consent-switch">
+          <input type="checkbox" id="consent-media" data-consent-media-switch>
+          <label for="consent-media">Third-party media</label>
+          <p>
+            Allows video and music players from YouTube, Spotify and Apple Music to load when you
+            open them. These providers may collect information about your visit under their own
+            privacy terms. With this switched off, you can still follow a link to each platform.
+          </p>
+        </div>
+
+        <p class="form-status" role="status" data-consent-settings-status></p>
+      </div>
+
+      <h2 id="categories">Categories we use</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Category</th>
+              <th scope="col">Purpose</th>
+              <th scope="col">Default</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Strictly necessary</td>
+              <td>Security, form delivery, load balancing and remembering the consent choice</td>
+              <td>Active where genuinely required</td>
+            </tr>
+            <tr>
+              <td>Form security</td>
+              <td>Reduce automated abuse when a person uses a protected form</td>
+              <td>Loaded at form interaction where feasible</td>
+            </tr>
+            <tr>
+              <td>Optional media</td>
+              <td>Load video, music or other third-party embedded experiences</td>
+              <td>Off until chosen</td>
+            </tr>
+            <tr>
+              <td>Analytics</td>
+              <td>Measure aggregate website use</td>
+              <td>Not implemented</td>
+            </tr>
+            <tr>
+              <td>Advertising and marketing trackers</td>
+              <td>Cross-site measurement or targeted advertising</td>
+              <td>Not implemented</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="owner-todo">
+        <p class="owner-todo__label">Owner must complete</p>
+        <p>
+          After the production build is scanned, record the actual provider, purpose, storage item,
+          duration and first- or third-party status for every item found.
+        </p>
+      </div>
+
+      <h3>What we store for your choice</h3>
+      <p>
+        We store only the minimum choice data in your browser's local storage. It contains no email
+        address, contact detail or cross-site identifier:
+      </p>
+      <pre style="overflow-x:auto;padding:1rem;border:1px solid var(--border-light);border-radius:0.75rem;background:var(--surface-paper-sunk);font-size:0.875rem;"><code>{
+  "version": "cookies-2026-08-05",
+  "necessary": true,
+  "media": false,
+  "updatedAt": "2026-08-05T12:00:00.000Z"
+}</code></pre>
+      <p>
+        The choice expires after about six months, and we request a fresh decision if the purposes or
+        providers materially change.
+      </p>
+
+      <h2 id="third-party-media">Third-party media</h2>
+      <p>
+        Before activation, we show a local placeholder, a short explanation and two options:
+      </p>
+      <ul>
+        <li>
+          <strong>Load this video or music</strong>, which records or uses the media choice and then
+          contacts the provider; and
+        </li>
+        <li>
+          <strong>Open on YouTube, Spotify or Apple Music</strong>, which leaves this website and is
+          governed by that provider.
+        </li>
+      </ul>
+      <p>
+        We do not create a hidden frame, preconnect, DNS prefetch or provider script before the
+        relevant choice. We use the most privacy-protective embed mode each provider offers, but that
+        does not eliminate all processing by the provider.
+      </p>
+
+      <h2 id="form-security">Form security</h2>
+      <p>
+        Cloudflare Turnstile may process limited technical information to distinguish people from
+        automated abuse. Where practical, it loads only when a protected form becomes active rather
+        than on every page. If the security check cannot be completed, an alternative contact route
+        is available.
+      </p>
+      <div class="owner-todo">
+        <p class="owner-todo__label">Owner must complete</p>
+        <p>
+          Confirm whether Turnstile is enabled, classify it after the final legal and technical
+          assessment, and publish the alternative contact route.
+        </p>
+      </div>
+
+      <h2 id="changing">Changing or clearing a choice</h2>
+      <p>
+        Reopen <strong>Cookie settings</strong> in the footer at any time. Turning optional media off
+        prevents new third-party embeds from loading and removes players already loaded on the page.
+        A provider you previously loaded may have placed its own storage. You can clear site data
+        through your browser settings and consult that provider's privacy controls.
+      </p>
+
+      <h2 id="browser-signals">Browser signals</h2>
+      <p>
+        This site responds to the consent controls described above. We do not currently read
+        automated browser privacy signals, and we do not claim support for a signal the
+        implementation does not read.
+      </p>
+
+      <h2 id="changes">Changes and contact</h2>
+      <p>
+        We update this information when a provider, purpose or retention period changes. If the
+        change is material, we reset the consent version and request a fresh decision.
+      </p>
+      <div class="owner-todo">
+        <p class="owner-todo__label">Owner must complete</p>
+        <p>Publish the privacy email address for cookie and privacy questions.</p>
+      </div>
+      <p>
+        See also our <a href="/privacy/">Privacy Policy</a>.
+      </p>
+    </div>
+  </div>
+</section>

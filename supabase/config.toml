@@ -1,0 +1,41 @@
+# Supabase CLI configuration.
+#
+# project_id is set by `supabase link` against the DEVELOPMENT project. Never
+# link an AI tool or a local experiment directly to production.
+
+project_id = "vop-website-dev"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 200
+
+[db]
+port = 54322
+major_version = 17
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+# No user accounts in the first release.
+enabled = false
+
+[edge_runtime]
+enabled = true
+policy = "oneshot"
+
+# These endpoints are called by unauthenticated visitors, so JWT verification is
+# off and each function enforces origin, method, size, schema, honeypot, bot and
+# rate-limit controls itself. See supabase/functions/_shared/request.ts.
+[functions.newsletter-subscribe]
+verify_jwt = false
+
+[functions.newsletter-unsubscribe]
+verify_jwt = false
+
+[functions.contact-submit]
+verify_jwt = false

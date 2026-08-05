@@ -1,0 +1,1482 @@
+{
+  "note": "Generated from the supplied source folders. Masters remain in their original locations.",
+  "generated_from": "scripts/build-images.py",
+  "assets": [
+    {
+      "source": "source-content/HOME/DIV 1 HERO/hero Picture.png",
+      "section": "home",
+      "name": "hero-stage",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/home/hero-stage-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/home/hero-stage-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/home/hero-stage-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/home/hero-stage-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 2/ChatGPT Image Aug 3, 2026, 12_21_00 AM.png",
+      "section": "home",
+      "name": "collective",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/home/collective-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/home/collective-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/home/collective-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/home/collective-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 2/Tshepiso Sk.png",
+      "section": "home",
+      "name": "collective-tshepiso-sk",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/home/collective-tshepiso-sk-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/home/collective-tshepiso-sk-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/home/collective-tshepiso-sk-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/home/collective-tshepiso-sk-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 2/Tetelo M.png",
+      "section": "home",
+      "name": "collective-tetelo-m",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/home/collective-tetelo-m-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/home/collective-tetelo-m-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/home/collective-tetelo-m-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/home/collective-tetelo-m-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 2/Oracle Divine.png",
+      "section": "home",
+      "name": "collective-divine-oracle",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/home/collective-divine-oracle-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/home/collective-divine-oracle-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/home/collective-divine-oracle-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/home/collective-divine-oracle-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 2/Given Mohlala.png",
+      "section": "home",
+      "name": "collective-given-mohlala",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/home/collective-given-mohlala-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/home/collective-given-mohlala-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/home/collective-given-mohlala-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/home/collective-given-mohlala-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 3/Tshepiso Sekhonde.png",
+      "section": "home",
+      "name": "featured-tshepiso-sk",
+      "intrinsic": {
+        "width": 1254,
+        "height": 1254
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 480,
+          "path": "assets/images/home/featured-tshepiso-sk-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 720,
+          "path": "assets/images/home/featured-tshepiso-sk-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 960,
+          "path": "assets/images/home/featured-tshepiso-sk-960.webp"
+        },
+        {
+          "width": 1254,
+          "height": 1254,
+          "path": "assets/images/home/featured-tshepiso-sk-1254.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 3/Tetelo M.png",
+      "section": "home",
+      "name": "featured-tetelo-m",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 600,
+          "path": "assets/images/home/featured-tetelo-m-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 900,
+          "path": "assets/images/home/featured-tetelo-m-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 1200,
+          "path": "assets/images/home/featured-tetelo-m-960.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/home/featured-tetelo-m-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 3/Oracle Divine.png",
+      "section": "home",
+      "name": "featured-divine-oracle",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 600,
+          "path": "assets/images/home/featured-divine-oracle-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 900,
+          "path": "assets/images/home/featured-divine-oracle-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 1200,
+          "path": "assets/images/home/featured-divine-oracle-960.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/home/featured-divine-oracle-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 3/given Mohlala.png",
+      "section": "home",
+      "name": "featured-given-mohlala",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 600,
+          "path": "assets/images/home/featured-given-mohlala-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 900,
+          "path": "assets/images/home/featured-given-mohlala-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 1200,
+          "path": "assets/images/home/featured-given-mohlala-960.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/home/featured-given-mohlala-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/ARTISTS/DIV (Hero )/ChatGPT Image Aug 3, 2026, 09_53_44 PM.png",
+      "section": "artists",
+      "name": "roster-hero",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/artists/roster-hero-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/artists/roster-hero-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/artists/roster-hero-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/artists/roster-hero-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/ARTISTS/Divine Oracle/c6c1e34a-b6fe-4038-bd33-03aeb6d49e7e.png",
+      "section": "artists",
+      "name": "divine-oracle-portrait",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 600,
+          "path": "assets/images/artists/divine-oracle-portrait-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 900,
+          "path": "assets/images/artists/divine-oracle-portrait-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 1200,
+          "path": "assets/images/artists/divine-oracle-portrait-960.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/artists/divine-oracle-portrait-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/ARTISTS/Given Mohlala/given mohlala.png",
+      "section": "artists",
+      "name": "given-mohlala-portrait",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 600,
+          "path": "assets/images/artists/given-mohlala-portrait-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 900,
+          "path": "assets/images/artists/given-mohlala-portrait-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 1200,
+          "path": "assets/images/artists/given-mohlala-portrait-960.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/artists/given-mohlala-portrait-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/ARTISTS/Tetelo M/ChatGPT Image Aug 3, 2026, 11_58_21 PM.png",
+      "section": "artists",
+      "name": "tetelo-m-portrait",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 600,
+          "path": "assets/images/artists/tetelo-m-portrait-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 900,
+          "path": "assets/images/artists/tetelo-m-portrait-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 1200,
+          "path": "assets/images/artists/tetelo-m-portrait-960.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/artists/tetelo-m-portrait-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/ARTISTS/Tshepiso Sk/ChatGPT Image Aug 4, 2026, 12_10_22 AM.png",
+      "section": "artists",
+      "name": "tshepiso-sk-portrait",
+      "intrinsic": {
+        "width": 1254,
+        "height": 1254
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 480,
+          "path": "assets/images/artists/tshepiso-sk-portrait-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 720,
+          "path": "assets/images/artists/tshepiso-sk-portrait-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 960,
+          "path": "assets/images/artists/tshepiso-sk-portrait-960.webp"
+        },
+        {
+          "width": 1254,
+          "height": 1254,
+          "path": "assets/images/artists/tshepiso-sk-portrait-1254.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/ABOUT/Div 1(Hero )/ChatGPT Image Aug 3, 2026, 06_19_34 PM.png",
+      "section": "about",
+      "name": "hero",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/about/hero-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/about/hero-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/about/hero-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/about/hero-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/ABOUT/Div 3Founder/ChatGPT Image Aug 3, 2026, 08_39_40 PM (1).png",
+      "section": "about",
+      "name": "ronald-makua-portrait",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 600,
+          "path": "assets/images/about/ronald-makua-portrait-480.webp"
+        },
+        {
+          "width": 720,
+          "height": 900,
+          "path": "assets/images/about/ronald-makua-portrait-720.webp"
+        },
+        {
+          "width": 960,
+          "height": 1200,
+          "path": "assets/images/about/ronald-makua-portrait-960.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/about/ronald-makua-portrait-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/ABOUT/Div 3Founder/ChatGPT Image Aug 3, 2026, 08_52_39 PM.png",
+      "section": "about",
+      "name": "ronald-makua-studio",
+      "intrinsic": {
+        "width": 1536,
+        "height": 1024
+      },
+      "renditions": [
+        {
+          "width": 560,
+          "height": 373,
+          "path": "assets/images/about/ronald-makua-studio-560.webp"
+        },
+        {
+          "width": 900,
+          "height": 600,
+          "path": "assets/images/about/ronald-makua-studio-900.webp"
+        },
+        {
+          "width": 1280,
+          "height": 853,
+          "path": "assets/images/about/ronald-makua-studio-1280.webp"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "assets/images/about/ronald-makua-studio-1536.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (9)/generated-services-hero-web.webp",
+      "section": "services",
+      "name": "hero",
+      "intrinsic": {
+        "width": 1800,
+        "height": 828
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 294,
+          "path": "assets/images/services/hero-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 442,
+          "path": "assets/images/services/hero-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 589,
+          "path": "assets/images/services/hero-1280.webp"
+        },
+        {
+          "width": 1800,
+          "height": 828,
+          "path": "assets/images/services/hero-1800.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div/generated-event-management-web.webp",
+      "section": "services",
+      "name": "event-management",
+      "intrinsic": {
+        "width": 1300,
+        "height": 1000
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 369,
+          "path": "assets/images/services/event-management-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 615,
+          "path": "assets/images/services/event-management-800.webp"
+        },
+        {
+          "width": 1300,
+          "height": 1000,
+          "path": "assets/images/services/event-management-1300.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (2)/generated-artist-bookings-web.webp",
+      "section": "services",
+      "name": "artist-bookings",
+      "intrinsic": {
+        "width": 1800,
+        "height": 760
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 270,
+          "path": "assets/images/services/artist-bookings-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 405,
+          "path": "assets/images/services/artist-bookings-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 540,
+          "path": "assets/images/services/artist-bookings-1280.webp"
+        },
+        {
+          "width": 1800,
+          "height": 760,
+          "path": "assets/images/services/artist-bookings-1800.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (3)/generated-band-worship-web.webp",
+      "section": "services",
+      "name": "live-band-worship",
+      "intrinsic": {
+        "width": 1200,
+        "height": 960
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 320,
+          "path": "assets/images/services/live-band-worship-400.webp"
+        },
+        {
+          "width": 800,
+          "height": 640,
+          "path": "assets/images/services/live-band-worship-800.webp"
+        },
+        {
+          "width": 1200,
+          "height": 960,
+          "path": "assets/images/services/live-band-worship-1200.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (3)/generated-band-corporate-web.webp",
+      "section": "services",
+      "name": "live-band-corporate",
+      "intrinsic": {
+        "width": 1200,
+        "height": 960
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 320,
+          "path": "assets/images/services/live-band-corporate-400.webp"
+        },
+        {
+          "width": 800,
+          "height": 640,
+          "path": "assets/images/services/live-band-corporate-800.webp"
+        },
+        {
+          "width": 1200,
+          "height": 960,
+          "path": "assets/images/services/live-band-corporate-1200.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (3)/generated-band-celebration-web.webp",
+      "section": "services",
+      "name": "live-band-celebration",
+      "intrinsic": {
+        "width": 1200,
+        "height": 960
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 320,
+          "path": "assets/images/services/live-band-celebration-400.webp"
+        },
+        {
+          "width": 800,
+          "height": 640,
+          "path": "assets/images/services/live-band-celebration-800.webp"
+        },
+        {
+          "width": 1200,
+          "height": 960,
+          "path": "assets/images/services/live-band-celebration-1200.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (4)/generated-sound-production-web.webp",
+      "section": "services",
+      "name": "sound-production",
+      "intrinsic": {
+        "width": 1200,
+        "height": 900
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 360,
+          "path": "assets/images/services/sound-production-480.webp"
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "path": "assets/images/services/sound-production-800.webp"
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "path": "assets/images/services/sound-production-1200.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (5)/generated-lighting-production-web.webp",
+      "section": "services",
+      "name": "lighting-production",
+      "intrinsic": {
+        "width": 1600,
+        "height": 740
+      },
+      "renditions": [
+        {
+          "width": 560,
+          "height": 259,
+          "path": "assets/images/services/lighting-production-560.webp"
+        },
+        {
+          "width": 960,
+          "height": 444,
+          "path": "assets/images/services/lighting-production-960.webp"
+        },
+        {
+          "width": 1600,
+          "height": 740,
+          "path": "assets/images/services/lighting-production-1600.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (6)/generated-stage-supply-web.webp",
+      "section": "services",
+      "name": "stage-supply",
+      "intrinsic": {
+        "width": 1500,
+        "height": 960
+      },
+      "renditions": [
+        {
+          "width": 480,
+          "height": 307,
+          "path": "assets/images/services/stage-supply-480.webp"
+        },
+        {
+          "width": 900,
+          "height": 576,
+          "path": "assets/images/services/stage-supply-900.webp"
+        },
+        {
+          "width": 1500,
+          "height": 960,
+          "path": "assets/images/services/stage-supply-1500.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (7)/generated-led-live-web.webp",
+      "section": "services",
+      "name": "led-screens-live",
+      "intrinsic": {
+        "width": 800,
+        "height": 1250
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 625,
+          "path": "assets/images/services/led-screens-live-400.webp"
+        },
+        {
+          "width": 600,
+          "height": 938,
+          "path": "assets/images/services/led-screens-live-600.webp"
+        },
+        {
+          "width": 800,
+          "height": 1250,
+          "path": "assets/images/services/led-screens-live-800.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (7)/generated-led-corporate-web.webp",
+      "section": "services",
+      "name": "led-screens-corporate",
+      "intrinsic": {
+        "width": 800,
+        "height": 1250
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 625,
+          "path": "assets/images/services/led-screens-corporate-400.webp"
+        },
+        {
+          "width": 600,
+          "height": 938,
+          "path": "assets/images/services/led-screens-corporate-600.webp"
+        },
+        {
+          "width": 800,
+          "height": 1250,
+          "path": "assets/images/services/led-screens-corporate-800.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/Div (8)/generated-backline-pa-hire-web.webp",
+      "section": "services",
+      "name": "backline-pa-hire",
+      "intrinsic": {
+        "width": 1600,
+        "height": 940
+      },
+      "renditions": [
+        {
+          "width": 560,
+          "height": 329,
+          "path": "assets/images/services/backline-pa-hire-560.webp"
+        },
+        {
+          "width": 960,
+          "height": 564,
+          "path": "assets/images/services/backline-pa-hire-960.webp"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "path": "assets/images/services/backline-pa-hire-1600.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Services/generated-services-overview.jpg",
+      "section": "services",
+      "name": "overview",
+      "intrinsic": {
+        "width": 1532,
+        "height": 1670
+      },
+      "renditions": [
+        {
+          "width": 560,
+          "height": 610,
+          "path": "assets/images/services/overview-560.webp"
+        },
+        {
+          "width": 960,
+          "height": 1046,
+          "path": "assets/images/services/overview-960.webp"
+        },
+        {
+          "width": 1532,
+          "height": 1670,
+          "path": "assets/images/services/overview-1532.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/ChatGPT Image Aug 5, 2026, 12_15_52 AM.png",
+      "section": "events",
+      "name": "my-hope-conference-2026-poster",
+      "intrinsic": {
+        "width": 1086,
+        "height": 1448
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 533,
+          "path": "assets/images/events/my-hope-conference-2026-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 853,
+          "path": "assets/images/events/my-hope-conference-2026-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1200,
+          "path": "assets/images/events/my-hope-conference-2026-poster-900.webp"
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "path": "assets/images/events/my-hope-conference-2026-poster-1086.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/Worahip Night Venda.png",
+      "section": "events",
+      "name": "tetelo-m-worship-night-venda-poster",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 500,
+          "path": "assets/images/events/tetelo-m-worship-night-venda-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 800,
+          "path": "assets/images/events/tetelo-m-worship-night-venda-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1125,
+          "path": "assets/images/events/tetelo-m-worship-night-venda-poster-900.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/events/tetelo-m-worship-night-venda-poster-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/ChatGPT Image Aug 5, 2026, 12_34_13 AM.png",
+      "section": "events",
+      "name": "charity-worship-night-2026-poster",
+      "intrinsic": {
+        "width": 1054,
+        "height": 1492
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 566,
+          "path": "assets/images/events/charity-worship-night-2026-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 906,
+          "path": "assets/images/events/charity-worship-night-2026-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1274,
+          "path": "assets/images/events/charity-worship-night-2026-poster-900.webp"
+        },
+        {
+          "width": 1054,
+          "height": 1492,
+          "path": "assets/images/events/charity-worship-night-2026-poster-1054.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/tshepiso sk  (1).png",
+      "section": "events",
+      "name": "tshepiso-sk-worship-night-burgersfort-poster",
+      "intrinsic": {
+        "width": 1086,
+        "height": 1448
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 533,
+          "path": "assets/images/events/tshepiso-sk-worship-night-burgersfort-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 853,
+          "path": "assets/images/events/tshepiso-sk-worship-night-burgersfort-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1200,
+          "path": "assets/images/events/tshepiso-sk-worship-night-burgersfort-poster-900.webp"
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "path": "assets/images/events/tshepiso-sk-worship-night-burgersfort-poster-1086.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/Given Mohlala event.png",
+      "section": "events",
+      "name": "worship-therapy-season-3-poster",
+      "intrinsic": {
+        "width": 1086,
+        "height": 1448
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 533,
+          "path": "assets/images/events/worship-therapy-season-3-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 853,
+          "path": "assets/images/events/worship-therapy-season-3-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1200,
+          "path": "assets/images/events/worship-therapy-season-3-poster-900.webp"
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "path": "assets/images/events/worship-therapy-season-3-poster-1086.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/tshepiso sk  (2).png",
+      "section": "events",
+      "name": "grace-renewed-live-recording-poster",
+      "intrinsic": {
+        "width": 1086,
+        "height": 1448
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 533,
+          "path": "assets/images/events/grace-renewed-live-recording-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 853,
+          "path": "assets/images/events/grace-renewed-live-recording-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1200,
+          "path": "assets/images/events/grace-renewed-live-recording-poster-900.webp"
+        },
+        {
+          "width": 1086,
+          "height": 1448,
+          "path": "assets/images/events/grace-renewed-live-recording-poster-1086.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/Gospel Concert.png",
+      "section": "events",
+      "name": "tetelo-m-gospel-concert-rustenburg-poster",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 500,
+          "path": "assets/images/events/tetelo-m-gospel-concert-rustenburg-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 800,
+          "path": "assets/images/events/tetelo-m-gospel-concert-rustenburg-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1125,
+          "path": "assets/images/events/tetelo-m-gospel-concert-rustenburg-poster-900.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/events/tetelo-m-gospel-concert-rustenburg-poster-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/tetelo-m-21st-celebration-burgersfort-2026.png",
+      "section": "events",
+      "name": "tetelo-m-21st-celebration-burgersfort-poster",
+      "intrinsic": {
+        "width": 1024,
+        "height": 1536
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 600,
+          "path": "assets/images/events/tetelo-m-21st-celebration-burgersfort-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 960,
+          "path": "assets/images/events/tetelo-m-21st-celebration-burgersfort-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1350,
+          "path": "assets/images/events/tetelo-m-21st-celebration-burgersfort-poster-900.webp"
+        },
+        {
+          "width": 1024,
+          "height": 1536,
+          "path": "assets/images/events/tetelo-m-21st-celebration-burgersfort-poster-1024.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Events/Gig Guide 2026/Gospel Festival.png",
+      "section": "events",
+      "name": "tetelo-m-gospel-festival-polokwane-poster",
+      "intrinsic": {
+        "width": 1122,
+        "height": 1402
+      },
+      "renditions": [
+        {
+          "width": 400,
+          "height": 500,
+          "path": "assets/images/events/tetelo-m-gospel-festival-polokwane-poster-400.webp"
+        },
+        {
+          "width": 640,
+          "height": 800,
+          "path": "assets/images/events/tetelo-m-gospel-festival-polokwane-poster-640.webp"
+        },
+        {
+          "width": 900,
+          "height": 1125,
+          "path": "assets/images/events/tetelo-m-gospel-festival-polokwane-poster-900.webp"
+        },
+        {
+          "width": 1122,
+          "height": 1402,
+          "path": "assets/images/events/tetelo-m-gospel-festival-polokwane-poster-1122.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/Music/Div 1 Hero/b82841df-f534-4f08-b141-8a5333623d60.png",
+      "section": "music",
+      "name": "hero",
+      "intrinsic": {
+        "width": 1672,
+        "height": 941
+      },
+      "renditions": [
+        {
+          "width": 640,
+          "height": 360,
+          "path": "assets/images/music/hero-640.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "path": "assets/images/music/hero-960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "path": "assets/images/music/hero-1280.webp"
+        },
+        {
+          "width": 1672,
+          "height": 941,
+          "path": "assets/images/music/hero-1672.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 7/My-Life-Depends-on-You-Lord-Single-by-Tetelo-M-Spotify-08-03-2026_01_28_AM.png",
+      "section": "music",
+      "name": "my-life-depends-on-you-lord-cover",
+      "intrinsic": {
+        "width": 704,
+        "height": 707
+      },
+      "renditions": [
+        {
+          "width": 320,
+          "height": 321,
+          "path": "assets/images/music/my-life-depends-on-you-lord-cover-320.webp"
+        },
+        {
+          "width": 480,
+          "height": 482,
+          "path": "assets/images/music/my-life-depends-on-you-lord-cover-480.webp"
+        },
+        {
+          "width": 704,
+          "height": 707,
+          "path": "assets/images/music/my-life-depends-on-you-lord-cover-704.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 7/Matthew-7-7-Kokota-Single-by-Tetelo-M-Spotify-08-03-2026_02_55_AM.png",
+      "section": "music",
+      "name": "matthew-7-7-kokota-cover",
+      "intrinsic": {
+        "width": 702,
+        "height": 707
+      },
+      "renditions": [
+        {
+          "width": 320,
+          "height": 322,
+          "path": "assets/images/music/matthew-7-7-kokota-cover-320.webp"
+        },
+        {
+          "width": 480,
+          "height": 483,
+          "path": "assets/images/music/matthew-7-7-kokota-cover-480.webp"
+        },
+        {
+          "width": 702,
+          "height": 707,
+          "path": "assets/images/music/matthew-7-7-kokota-cover-702.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 7/Buwa-Single-by-Tetelo-M-Spotify-08-03-2026_04_06_PM.png",
+      "section": "music",
+      "name": "buwa-cover",
+      "intrinsic": {
+        "width": 711,
+        "height": 713
+      },
+      "renditions": [
+        {
+          "width": 320,
+          "height": 321,
+          "path": "assets/images/music/buwa-cover-320.webp"
+        },
+        {
+          "width": 480,
+          "height": 481,
+          "path": "assets/images/music/buwa-cover-480.webp"
+        },
+        {
+          "width": 711,
+          "height": 713,
+          "path": "assets/images/music/buwa-cover-711.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 7/At-the-Mention-of-Your-Name-Single-by-Tetelo-M-Spotify-08-03-2026_04_08_PM.png",
+      "section": "music",
+      "name": "at-the-mention-of-your-name-cover",
+      "intrinsic": {
+        "width": 574,
+        "height": 578
+      },
+      "renditions": [
+        {
+          "width": 320,
+          "height": 322,
+          "path": "assets/images/music/at-the-mention-of-your-name-cover-320.webp"
+        },
+        {
+          "width": 480,
+          "height": 483,
+          "path": "assets/images/music/at-the-mention-of-your-name-cover-480.webp"
+        },
+        {
+          "width": 574,
+          "height": 578,
+          "path": "assets/images/music/at-the-mention-of-your-name-cover-574.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 7/Given Mohlala o Mogolo.png",
+      "section": "music",
+      "name": "o-mogologolo-cover",
+      "intrinsic": {
+        "width": 356,
+        "height": 354
+      },
+      "renditions": [
+        {
+          "width": 320,
+          "height": 318,
+          "path": "assets/images/music/o-mogologolo-cover-320.webp"
+        },
+        {
+          "width": 356,
+          "height": 354,
+          "path": "assets/images/music/o-mogologolo-cover-356.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 7/ee kea Dumela.png",
+      "section": "music",
+      "name": "ehh-kea-dumela-cover",
+      "intrinsic": {
+        "width": 426,
+        "height": 427
+      },
+      "renditions": [
+        {
+          "width": 320,
+          "height": 321,
+          "path": "assets/images/music/ehh-kea-dumela-cover-320.webp"
+        },
+        {
+          "width": 426,
+          "height": 427,
+          "path": "assets/images/music/ehh-kea-dumela-cover-426.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/HOME/DIV 7/Sonto-Spotify-08-04-2026_01_36_PM.png",
+      "section": "music",
+      "name": "ngcwele-phenyo-cover",
+      "intrinsic": {
+        "width": 355,
+        "height": 365
+      },
+      "renditions": [
+        {
+          "width": 320,
+          "height": 329,
+          "path": "assets/images/music/ngcwele-phenyo-cover-320.webp"
+        },
+        {
+          "width": 355,
+          "height": 365,
+          "path": "assets/images/music/ngcwele-phenyo-cover-355.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/News/DIV 1/bLOG STORY 1/blog story  (2).png",
+      "section": "news",
+      "name": "tshepiso-sk-outreach-lead",
+      "intrinsic": {
+        "width": 1536,
+        "height": 1024
+      },
+      "renditions": [
+        {
+          "width": 560,
+          "height": 373,
+          "path": "assets/images/news/tshepiso-sk-outreach-lead-560.webp"
+        },
+        {
+          "width": 900,
+          "height": 600,
+          "path": "assets/images/news/tshepiso-sk-outreach-lead-900.webp"
+        },
+        {
+          "width": 1280,
+          "height": 853,
+          "path": "assets/images/news/tshepiso-sk-outreach-lead-1280.webp"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "assets/images/news/tshepiso-sk-outreach-lead-1536.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/News/DIV 1/bLOG STORY 1/blog story  (3).png",
+      "section": "news",
+      "name": "tshepiso-sk-outreach-donations",
+      "intrinsic": {
+        "width": 1448,
+        "height": 1086
+      },
+      "renditions": [
+        {
+          "width": 560,
+          "height": 420,
+          "path": "assets/images/news/tshepiso-sk-outreach-donations-560.webp"
+        },
+        {
+          "width": 900,
+          "height": 675,
+          "path": "assets/images/news/tshepiso-sk-outreach-donations-900.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "path": "assets/images/news/tshepiso-sk-outreach-donations-1280.webp"
+        },
+        {
+          "width": 1448,
+          "height": 1086,
+          "path": "assets/images/news/tshepiso-sk-outreach-donations-1448.webp"
+        }
+      ]
+    },
+    {
+      "source": "source-content/News/DIV 1/bLOG STORY 1/blog story  (1).png",
+      "section": "news",
+      "name": "tshepiso-sk-outreach-team",
+      "intrinsic": {
+        "width": 1536,
+        "height": 1024
+      },
+      "renditions": [
+        {
+          "width": 560,
+          "height": 373,
+          "path": "assets/images/news/tshepiso-sk-outreach-team-560.webp"
+        },
+        {
+          "width": 900,
+          "height": 600,
+          "path": "assets/images/news/tshepiso-sk-outreach-team-900.webp"
+        },
+        {
+          "width": 1280,
+          "height": 853,
+          "path": "assets/images/news/tshepiso-sk-outreach-team-1280.webp"
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "path": "assets/images/news/tshepiso-sk-outreach-team-1536.webp"
+        }
+      ]
+    }
+  ]
+}

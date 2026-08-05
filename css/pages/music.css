@@ -1,0 +1,57 @@
+@layer pages {
+  .discography {
+    display: grid;
+    gap: clamp(1rem, 2.4vw, 1.75rem);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr));
+  }
+
+  .discography .release {
+    height: 100%;
+  }
+
+  /* Featured release: large cover with the platform actions beside it. */
+  .feature-release {
+    display: grid;
+    gap: clamp(1.5rem, 4vw, 3rem);
+    align-items: center;
+  }
+
+  @media (width >= 56rem) {
+    .feature-release {
+      grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+    }
+  }
+
+  .feature-release__cover {
+    max-width: 24rem;
+    aspect-ratio: 1;
+    border-radius: var(--radius-panel);
+    overflow: hidden;
+    border: 1px solid var(--border-dark-strong);
+    box-shadow:
+      0 30px 70px rgb(0 0 0 / 58%),
+      inset 0 1px 0 rgb(255 255 255 / 10%);
+  }
+
+  .feature-release__cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .platform-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  /* Spotify embeds are gated: 152px collapsed, 352px once activated. */
+  .media-gate--audio .media-gate__frame {
+    --gate-ratio: auto;
+    min-height: 9.5rem;
+  }
+
+  .media-gate--audio[data-loaded="true"] .media-gate__frame {
+    min-height: 22rem;
+  }
+}

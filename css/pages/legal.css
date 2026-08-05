@@ -1,0 +1,241 @@
+@layer pages {
+  /*
+   * Legal and policy pages sit on warm paper and prioritise reading measure
+   * over material effects. No cards, no glass, no gold gradients.
+   *
+   * The paper surface and its inverted tokens are scoped to the reading area.
+   * The header and footer keep the brand's dark treatment, because gold and
+   * ivory on paper would not meet AA contrast.
+   */
+  .legal-page main {
+    --text-on-dark: var(--text-on-light);
+    --text-muted-dark: var(--text-muted-light);
+    --border-dark: var(--border-light);
+    --border-dark-strong: rgb(33 26 27 / 34%);
+    --accent-metal: var(--brand-burgundy);
+    --focus-ring: var(--brand-burgundy);
+
+    background: var(--surface-paper);
+    color: var(--text-on-light);
+  }
+
+  /*
+   * A transparent header over paper would be unreadable, so on these pages it
+   * carries its readable surface from the top rather than waiting for scroll.
+   */
+  .legal-page .site-header {
+    background: rgb(9 7 7 / 94%);
+    border-block-end-color: var(--border-dark);
+  }
+
+  @supports (backdrop-filter: blur(1px)) {
+    .legal-page .site-header {
+      background: rgb(9 7 7 / 78%);
+      backdrop-filter: blur(22px) saturate(140%);
+    }
+  }
+
+  .legal-layout {
+    display: grid;
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: start;
+  }
+
+  /*
+   * Grid children default to min-width: auto, so a wide table or code block
+   * would size the whole column past the viewport. Letting them shrink keeps
+   * the page within 320px; the scroll containers below handle their own
+   * overflow.
+   */
+  .legal-layout > * {
+    min-width: 0;
+  }
+
+  @media (width >= 68rem) {
+    .legal-layout {
+      grid-template-columns: minmax(0, 16rem) minmax(0, 1fr);
+    }
+
+    .legal-toc {
+      position: sticky;
+      top: 7rem;
+    }
+  }
+
+  .legal-toc__heading {
+    font-family: var(--font-utility);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--brand-burgundy);
+    margin-block-end: 0.75rem;
+  }
+
+  .legal-toc ol {
+    display: grid;
+    gap: 0.1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: toc;
+  }
+
+  .legal-toc a {
+    display: flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.5rem 0;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    text-decoration: none;
+    color: var(--text-muted-light);
+    border-block-end: 1px solid var(--border-light);
+  }
+
+  .legal-toc a:hover {
+    color: var(--text-on-light);
+    text-decoration: underline;
+  }
+
+  .legal-body {
+    max-width: 70ch;
+  }
+
+  .legal-body h2 {
+    font-size: var(--step-2);
+    font-weight: 800;
+    line-height: 1.18;
+    letter-spacing: -0.022em;
+    margin-block-start: 2.25em;
+    scroll-margin-block-start: 7rem;
+  }
+
+  .legal-body h2:first-of-type {
+    margin-block-start: 0;
+  }
+
+  .legal-body h3 {
+    font-size: var(--step-1);
+    font-weight: 700;
+    margin-block-start: 1.75em;
+  }
+
+  .legal-body table {
+    margin-block: 1.5em;
+    font-size: 0.9375rem;
+  }
+
+  .legal-body th,
+  .legal-body td {
+    padding: 0.7rem 0.85rem;
+    text-align: start;
+    vertical-align: top;
+    border: 1px solid var(--border-light);
+  }
+
+  .legal-body th {
+    font-weight: 700;
+    background: var(--surface-paper-sunk);
+  }
+
+  .legal-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    padding: 0.9rem 1.15rem;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-input);
+    background: var(--surface-paper-sunk);
+    font-family: var(--font-utility);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+  }
+
+  /*
+   * Marks a clause that still needs an owner or legal decision. These blocks
+   * must not exist on the published site; the launch checklist gates them.
+   */
+  .owner-todo {
+    display: grid;
+    gap: 0.4rem;
+    margin-block: 1.25em;
+    padding: 0.9rem 1.15rem;
+    border: 1px solid var(--brand-burgundy);
+    border-inline-start-width: 4px;
+    border-radius: var(--radius-input);
+    background: rgb(118 13 23 / 7%);
+    font-size: 0.9375rem;
+  }
+
+  .owner-todo__label {
+    font-family: var(--font-utility);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--brand-burgundy);
+  }
+
+  /* Consent controls embedded in the cookie page. */
+  .consent-controls {
+    display: grid;
+    gap: var(--space-s);
+    margin-block: 1.5em;
+    padding: clamp(1.15rem, 3vw, 1.75rem);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-card);
+    background: var(--surface-paper-sunk);
+  }
+
+  .consent-switch {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.35rem 0.85rem;
+    align-items: start;
+    padding-block: 0.65rem;
+    border-block-end: 1px solid var(--border-light);
+  }
+
+  .consent-switch:last-of-type {
+    border-block-end: 0;
+  }
+
+  .consent-switch input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.2rem 0 0;
+    accent-color: var(--brand-burgundy);
+    cursor: pointer;
+  }
+
+  .consent-switch label {
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .consent-switch p {
+    grid-column: 2;
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--text-muted-light);
+  }
+
+  .consent-switch input[disabled] + label {
+    cursor: default;
+  }
+
+  /* Buttons on paper need their dark-surface treatment overridden. */
+  .legal-page .btn--ghost {
+    background: rgb(33 26 27 / 5%);
+    border-color: rgb(33 26 27 / 30%);
+    color: var(--text-on-light);
+  }
+
+  .legal-page .btn--ghost:hover {
+    background: rgb(33 26 27 / 10%);
+    border-color: var(--brand-burgundy);
+  }
+}

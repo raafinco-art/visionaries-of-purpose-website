@@ -1,0 +1,73 @@
+TSHEPISO SK — UPCOMING EVENTS
+
+Only the September and November 2026 events must appear.
+
+==================================================
+26 SEPTEMBER 2026
+==================================================
+
+EVENT:
+Worship Night
+
+LOCATION:
+Burgersfort
+
+EVENT IMAGE:
+ /images/events/tshepiso-sk-worship-night-september-2026.jpg
+
+DETAILS COPY:
+Join Tshepiso SK for a special Worship Night in Burgersfort on 26 September 2026.
+
+GET TICKETS BUTTON:
+Hidden because no booking link is available.
+
+ADD TO CALENDAR:
+Title: Tshepiso SK — Worship Night
+Date: 26 September 2026
+Location: Burgersfort
+Description: Join Tshepiso SK for a special Worship Night in Burgersfort.
+Ticket link: None
+
+
+==================================================
+14 NOVEMBER 2026
+==================================================
+
+EVENT:
+Grace Renewed Live Recording
+
+LOCATION:
+Burgersfort
+
+EVENT IMAGE:
+ /images/events/tshepiso-sk-grace-renewed-november-2026.jpg
+
+DETAILS COPY:
+Be part of Grace Renewed, a live recording experience with Tshepiso SK in Burgersfort on 14 November 2026.
+
+GET TICKETS BUTTON:
+Visible
+
+TICKET LINK:
+https://computicket-boxoffice.com/e/grace-renewed-IxJviO
+
+ADD TO CALENDAR:
+Title: Tshepiso SK — Grace Renewed Live Recording
+Date: 14 November 2026
+Location: Burgersfort
+Description: Be part of Grace Renewed, a live recording experience with Tshepiso SK in Burgersfort.
+Ticket link: https://computicket-boxoffice.com/e/grace-renewed-IxJviO
+
+
+==================================================
+UPCOMING EVENTS BLOCK BEHAVIOUR
+==================================================
+
+The large block on the left displays the active event image.
+
+When the active event changes:
+- Change the image on the left.
+- Change the date, title, location and details on the right.
+- Update the Add to Calendar button with the active event's details.
+- Show the Get Tickets button only when the active event has a booking link.
+- Hide the Get Tickets button completely when there is no booking link.

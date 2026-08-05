@@ -1,0 +1,160 @@
+@layer pages {
+  /* Condensed capability strip under the services hero. */
+  .service-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+    align-items: center;
+    font-family: var(--font-utility);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted-dark);
+  }
+
+  .service-strip li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .service-strip li:not(:last-child)::after {
+    content: "";
+    width: 1px;
+    height: 0.9rem;
+    background: var(--border-gold);
+  }
+
+  /* Each service: alternating 7/5 split on wide screens. */
+  .service {
+    display: grid;
+    gap: clamp(1.5rem, 4vw, 3.5rem);
+    align-items: center;
+    padding-block: clamp(2.5rem, 5.5vw, 4.5rem);
+  }
+
+  .service + .service {
+    border-block-start: 1px solid var(--border-dark);
+  }
+
+  @media (width >= 62rem) {
+    .service {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+
+    /* On small screens the heading, copy and action always precede the
+       imagery in DOM order; the reversal is purely visual. */
+    .service:nth-of-type(even) {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+
+    .service:nth-of-type(even) > .service__media {
+      order: 1;
+    }
+
+    .service:nth-of-type(even) > .service__body {
+      order: 2;
+    }
+  }
+
+  .service__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    max-width: 60ch;
+  }
+
+  .service__media {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .service__media img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-card);
+    border: 1px solid var(--border-dark);
+    box-shadow: 0 26px 60px rgb(0 0 0 / 48%);
+  }
+
+  /* Services with several contextual images (live band, LED). */
+  .service__media--pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service__media--trio {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service__media--trio > :first-child {
+    grid-column: 1 / -1;
+  }
+
+  /* Highlights read as technical specification, not marketing bullets. */
+  .service__highlights {
+    display: grid;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .service__highlights li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.65rem;
+    font-family: var(--font-utility);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--text-muted-dark);
+  }
+
+  .service__highlights li::before {
+    content: "";
+    flex: none;
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+    background: var(--accent-metal);
+    transform: translateY(-0.15rem);
+  }
+
+  /* Feature cards used by the live-band service. */
+  .service__features {
+    display: grid;
+    gap: 0.75rem;
+    margin-block-start: 0.35rem;
+  }
+
+  @media (width >= 40rem) {
+    .service__features {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .service-feature {
+    display: grid;
+    gap: 0.35rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius-input);
+    background: rgb(245 239 228 / 3%);
+  }
+
+  .service-feature__name {
+    font-family: var(--font-utility);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent-metal);
+  }
+
+  .service-feature p {
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--text-muted-dark);
+  }
+}

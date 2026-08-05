@@ -1,0 +1,23 @@
+{
+  "name": "visionaries-of-purpose-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visionaries of Purpose - artist management, bookings and live production website.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:pages && vite build",
+    "preview": "vite preview",
+    "build:pages": "node scripts/build-pages.mjs",
+    "build:seed": "node scripts/build-seed.mjs",
+    "images": "python scripts/build-images.py",
+    "set-domain": "node scripts/set-domain.js",
+    "check:links": "node scripts/check-links.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.112.0"
+  },
+  "devDependencies": {
+    "vite": "8.2.0"
+  }
+}

@@ -1,0 +1,153 @@
+@layer tokens {
+  /*
+   * Visionaries of Purpose design tokens.
+   * Source of truth: 03_UI_UX_MATERIAL_SYSTEM.md and the master colour board.
+   * Components reference semantic tokens, never a named brand colour directly.
+   */
+  :root {
+    color-scheme: dark;
+
+    /* ---- Brand palette (master colour board) ---- */
+    --brand-burgundy: #760d17;
+    --brand-crimson: #b71927;
+    --brand-obsidian: #090707;
+    --brand-graphite: #211a1b;
+    --brand-gold: #d1a33b;
+    --brand-antique-gold: #9b6b1b;
+    --brand-ivory: #f5efe4;
+
+    /* ---- Semantic surfaces ---- */
+    --surface-stage: #050505;
+    --surface-executive: #0c0a0a;
+    --surface-raised: #211a1b;
+    --surface-paper: #f7f1e6;
+    --surface-paper-sunk: #efe6d6;
+
+    /* ---- Text ---- */
+    --text-on-dark: #f4f1ed;
+    --text-on-light: #211a1b;
+    --text-muted-dark: #b6aca5;
+    --text-muted-light: #57484a;
+
+    /* ---- Action + accent ---- */
+    --action-primary: #b71927;
+    --action-primary-hover: #d01f2e;
+    --action-primary-deep: #71000d;
+    /* Signature red as small text on stage black. The button reds are correct
+       behind white but fall below 4.5:1 as a foreground, so labels use this
+       lighter tint instead. */
+    --action-primary-text: #e8505c;
+    --accent-metal: #c59a3a;
+
+    /* ---- Lines + focus ---- */
+    --border-dark: rgb(245 239 228 / 16%);
+    --border-dark-strong: rgb(245 239 228 / 28%);
+    --border-light: rgb(33 26 27 / 18%);
+    --border-gold: rgb(197 154 58 / 45%);
+    --focus-ring: #d1a33b;
+
+    /* ---- Status ---- */
+    --status-success: #3f7d58;
+    --status-success-text: #8fd6ab;
+    --status-warning: #a66b13;
+    --status-warning-text: #e7b45c;
+    --status-error: #b71927;
+    --status-error-text: #ff9a9f;
+
+    /* ---- Typography families ---- */
+    --font-brand: "Cabinet Grotesk", "Helvetica Neue", helvetica, arial, sans-serif;
+    --font-editorial: "Bodoni Moda", georgia, "Times New Roman", times, serif;
+    --font-utility: "Barlow Condensed", "Arial Narrow", arial, sans-serif;
+
+    /* ---- Fluid type scale ---- */
+    --step--1: clamp(0.82rem, 0.79rem + 0.13vw, 0.9rem);
+    --step-0: clamp(1rem, 0.95rem + 0.22vw, 1.12rem);
+    --step-1: clamp(1.25rem, 1.12rem + 0.55vw, 1.56rem);
+    --step-2: clamp(1.56rem, 1.32rem + 1vw, 2.13rem);
+    --step-3: clamp(1.95rem, 1.52rem + 1.8vw, 3rem);
+    --step-4: clamp(2.44rem, 1.72rem + 3vw, 4.2rem);
+    --step-5: clamp(3.05rem, 1.85rem + 5vw, 6rem);
+
+    /* ---- Spacing (4px base, composed in 8px increments) ---- */
+    --space-3xs: 0.25rem;
+    --space-2xs: 0.5rem;
+    --space-xs: 0.75rem;
+    --space-s: 1rem;
+    --space-m: 1.5rem;
+    --space-l: 2rem;
+    --space-xl: 3rem;
+    --space-2xl: 4rem;
+    --space-3xl: 6rem;
+
+    --page-gutter: clamp(1rem, 4vw, 4rem);
+    --section-space: clamp(4.5rem, 9vw, 9rem);
+    --content-max: 1240px;
+    --measure: 68ch;
+
+    /* ---- Radii ---- */
+    --radius-control: 999px;
+    --radius-input: 0.75rem;
+    --radius-card: 1.25rem;
+    --radius-panel: 1.75rem;
+
+    /* ---- Elevation. Never stack more than three levels on one screen. ---- */
+    --shadow-raised-dark:
+      -10px -10px 24px rgb(63 48 50 / 18%),
+      12px 14px 30px rgb(0 0 0 / 48%),
+      inset 0 1px 0 rgb(255 255 255 / 8%);
+    --shadow-raised-dark-hover:
+      -10px -10px 26px rgb(63 48 50 / 22%),
+      16px 20px 42px rgb(0 0 0 / 56%),
+      inset 0 1px 0 rgb(255 255 255 / 12%);
+    --shadow-inset-dark:
+      inset 5px 5px 12px rgb(0 0 0 / 48%),
+      inset -4px -4px 10px rgb(255 255 255 / 4%);
+    --shadow-paper:
+      0 18px 45px rgb(33 26 27 / 13%),
+      inset 0 1px 0 rgb(255 255 255 / 72%);
+    --shadow-enamel:
+      8px 10px 22px rgb(0 0 0 / 55%),
+      -5px -5px 15px rgb(255 255 255 / 4%),
+      inset 0 1px 0 rgb(255 255 255 / 28%),
+      inset 0 -2px 4px rgb(69 0 8 / 55%);
+    --shadow-enamel-hover:
+      10px 14px 30px rgb(0 0 0 / 60%),
+      -5px -5px 16px rgb(255 255 255 / 5%),
+      0 12px 34px rgb(183 25 39 / 26%),
+      inset 0 1px 0 rgb(255 255 255 / 34%),
+      inset 0 -2px 4px rgb(69 0 8 / 55%);
+    --shadow-pressed:
+      inset 6px 6px 14px rgb(0 0 0 / 52%),
+      inset -3px -3px 9px rgb(255 255 255 / 4%);
+
+    /* ---- Motion ---- */
+    --motion-instant: 100ms;
+    --motion-fast: 180ms;
+    --motion-standard: 260ms;
+    --motion-emphasis: 420ms;
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+    /* ---- Layering. Named steps only; no arbitrary z-index values. ---- */
+    --layer-base: 0;
+    --layer-raised: 10;
+    --layer-sticky: 100;
+    --layer-header: 200;
+    --layer-drawer: 300;
+    --layer-dialog: 400;
+    --layer-consent: 500;
+    --layer-skip-link: 600;
+  }
+
+  /* Warm paper regions invert the semantic text tokens so components
+     inherit the correct colours without knowing which surface they sit on. */
+  .surface-paper {
+    --text-on-dark: var(--text-on-light);
+    --text-muted-dark: var(--text-muted-light);
+    --border-dark: var(--border-light);
+    --border-dark-strong: rgb(33 26 27 / 32%);
+
+    background: var(--surface-paper);
+    color: var(--text-on-light);
+  }
+}

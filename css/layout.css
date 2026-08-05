@@ -1,0 +1,250 @@
+@layer layout {
+  /* ---- Containers ---- */
+  .shell {
+    width: 100%;
+    max-width: var(--content-max);
+    margin-inline: auto;
+    padding-inline: var(--page-gutter);
+  }
+
+  .shell--narrow {
+    max-width: 76ch;
+  }
+
+  .shell--wide {
+    max-width: 1440px;
+  }
+
+  /* ---- Section rhythm ---- */
+  .section {
+    padding-block: var(--section-space);
+    position: relative;
+  }
+
+  .section--tight {
+    padding-block: clamp(3rem, 6vw, 5.5rem);
+  }
+
+  .section--flush-top {
+    padding-block-start: 0;
+  }
+
+  /* Full-bleed surfaces that break out of the page rhythm. */
+  .section--executive {
+    background: linear-gradient(180deg, rgb(12 10 10 / 0%) 0%, rgb(12 10 10 / 92%) 12%, rgb(12 10 10 / 92%) 88%, rgb(12 10 10 / 0%) 100%);
+  }
+
+  .section--paper {
+    background: var(--surface-paper);
+    color: var(--text-on-light);
+  }
+
+  /* ---- Stacks and clusters ---- */
+  .stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--flow-gap, var(--space-m));
+  }
+
+  .stack > * {
+    margin-block: 0;
+  }
+
+  .cluster {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--cluster-gap, var(--space-s));
+  }
+
+  .flow > * + * {
+    margin-block-start: var(--flow-gap, 1.1em);
+  }
+
+  /* ---- Section headers ---- */
+  .section-head {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+    max-width: 62ch;
+    margin-block-end: clamp(2rem, 4vw, 3.5rem);
+  }
+
+  /* Offset variant: heading left, supporting copy pushed right on wide screens. */
+  .section-head--split {
+    max-width: none;
+    display: grid;
+    gap: var(--space-m) clamp(2rem, 6vw, 5rem);
+    align-items: end;
+  }
+
+  @media (width >= 62rem) {
+    .section-head--split {
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    }
+
+    .section-head--split > :last-child {
+      padding-block-end: 0.4rem;
+    }
+  }
+
+  /* ---- Editorial split: alternating media and copy ---- */
+  .split {
+    display: grid;
+    gap: clamp(1.75rem, 4vw, 3.5rem);
+    align-items: center;
+  }
+
+  @media (width >= 62rem) {
+    .split {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+
+    .split--5-7 {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+
+    .split--even {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Visual reversal only. DOM order stays logical for reading and keyboard. */
+    .split--media-last > .split__media {
+      order: 2;
+    }
+
+    .split--media-last > .split__body {
+      order: 1;
+    }
+  }
+
+  /* ---- Grids ---- */
+  .grid-auto {
+    display: grid;
+    gap: clamp(1rem, 2vw, 1.75rem);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 17.5rem), 1fr));
+  }
+
+  .grid-2 {
+    display: grid;
+    gap: clamp(1rem, 2.5vw, 2rem);
+  }
+
+  .grid-3 {
+    display: grid;
+    gap: clamp(1rem, 2.5vw, 2rem);
+  }
+
+  @media (width >= 48rem) {
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (width >= 62rem) {
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  /* Selective asymmetry: a lead cell with supporting cells beside it. */
+  .grid-lead {
+    display: grid;
+    gap: clamp(1rem, 2.5vw, 2rem);
+  }
+
+  @media (width >= 62rem) {
+    .grid-lead {
+      grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+      align-items: start;
+    }
+
+    .grid-lead__support {
+      display: grid;
+      gap: clamp(1rem, 2vw, 1.5rem);
+    }
+  }
+
+  /* ---- Page hero ---- */
+  .page-hero {
+    position: relative;
+    display: grid;
+    align-items: end;
+    min-height: min(78svh, 44rem);
+    padding-block: clamp(7rem, 14vw, 10rem) clamp(3rem, 7vw, 5rem);
+    isolation: isolate;
+    overflow: hidden;
+  }
+
+  .page-hero--compact {
+    min-height: min(56svh, 30rem);
+  }
+
+  .page-hero__media {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+  }
+
+  .page-hero__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: var(--hero-focal, 50% 32%);
+  }
+
+  /*
+   * Robust contrast layer. Text never sits directly on the photograph:
+   * a directional scrim plus a base wash keeps the measured contrast
+   * above AA at every viewport width.
+   */
+  .page-hero__scrim {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background:
+      linear-gradient(94deg, rgb(5 5 5 / 92%) 0%, rgb(5 5 5 / 78%) 38%, rgb(5 5 5 / 32%) 72%, rgb(5 5 5 / 18%) 100%),
+      linear-gradient(180deg, rgb(5 5 5 / 72%) 0%, rgb(5 5 5 / 12%) 34%, rgb(5 5 5 / 55%) 82%, rgb(5 5 5 / 92%) 100%);
+  }
+
+  @media (width <= 48rem) {
+    .page-hero__scrim {
+      background:
+        linear-gradient(180deg, rgb(5 5 5 / 82%) 0%, rgb(5 5 5 / 42%) 30%, rgb(5 5 5 / 82%) 68%, rgb(5 5 5 / 96%) 100%);
+    }
+  }
+
+  .page-hero__body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 2vw, 1.5rem);
+    max-width: 46rem;
+  }
+
+  /* ---- Timeline (gig guide) ---- */
+  .timeline {
+    position: relative;
+    display: grid;
+    gap: clamp(1.5rem, 3vw, 2.5rem);
+  }
+
+  /* ---- Footer ---- */
+  .footer-grid {
+    display: grid;
+    gap: clamp(2rem, 4vw, 3rem);
+  }
+
+  @media (width >= 48rem) {
+    .footer-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (width >= 68rem) {
+    /* Asymmetric multi-column: brand block is wider than the link columns. */
+    .footer-grid {
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.8fr) minmax(0, 0.8fr) minmax(0, 1.4fr);
+    }
+  }
+}

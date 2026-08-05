@@ -1,0 +1,543 @@
+{
+  "_meta": {
+    "note": "Build-time fallback used when the Supabase Data API is unreachable. Supabase remains the source of truth for published content. Every value here comes from an owner-supplied source file or poster; nothing is inferred.",
+    "lastReviewed": "2026-08-05",
+    "timezone": "Africa/Johannesburg",
+    "consentVersion": "cookies-2026-08-05",
+    "privacyVersion": "privacy-2026-08-05"
+  },
+
+  "artists": [
+    {
+      "slug": "tshepiso-sk",
+      "name": "Tshepiso SK",
+      "legalName": "Tshepiso Sekhonde",
+      "role": "Singer · Worshiper · Composer",
+      "displayOrder": 1,
+      "shortBio": "A singer, worshiper and composer whose life is rooted in faith, purpose and service.",
+      "longBio": [
+        "Tshepiso Sekhonde, better known as Tshepiso SK, is a singer, worshiper and composer whose life is deeply rooted in faith, purpose and service. A professional hygienist, philanthropist and community driven individual, she carries the same spirit of care into every space she enters.",
+        "As a Visionary of Purpose, Tshepiso SK believes that music is more than a gift. It is a vessel for healing, hope and transformation. Her voice, compassion and commitment to people reflect a woman determined to use every part of her life to create meaningful impact."
+      ],
+      "portrait": "assets/images/artists/tshepiso-sk-portrait",
+      "portraitWidths": [480, 720, 960, 1254],
+      "portraitIntrinsic": { "width": 1254, "height": 1254 },
+      "portraitAlt": "Tshepiso SK, singer, worshiper and composer with Visionaries of Purpose.",
+      "homePortrait": "assets/images/home/featured-tshepiso-sk",
+      "homePortraitWidths": [480, 720, 960, 1254],
+      "homePortraitIntrinsic": { "width": 1254, "height": 1254 },
+      "socialLinks": [
+        { "platform": "TikTok", "url": "https://www.tiktok.com/@tshepiso_sk_music" },
+        { "platform": "Instagram", "url": "https://www.instagram.com/tshepisoskhonde/" },
+        { "platform": "Facebook", "url": "https://www.facebook.com/p/Tshepiso-SK-100064151199717/" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "tetelo-m",
+      "name": "Tetelo M",
+      "role": "Artist · Worshiper · Songwriter",
+      "displayOrder": 2,
+      "shortBio": "An artist and worshiper whose voice carries faith, purpose and a conviction to reveal the heart of God.",
+      "longBio": [
+        "Tetelo M is an artist, worshiper, songwriter and composer whose voice carries more than melody. It carries faith, purpose and a deep conviction to reveal the heart of God through music.",
+        "Blessed with a powerful and distinctive voice, she creates from a place of worship, allowing every lyric and every note to become an expression of hope, healing and divine truth. Her music encourages people to rise above fear, rediscover their God-given identity and walk boldly in the purpose placed within them.",
+        "Tetelo M believes that worship has the power to transform atmospheres, restore hearts and awaken faith. Through her gift, she reminds every listener that their story is not finished, their purpose is still alive and God remains faithful through every season.",
+        "She is not simply singing songs. She is building moments of encounter, carrying a message of courage and empowering a generation to believe, worship and move forward with confidence."
+      ],
+      "portrait": "assets/images/artists/tetelo-m-portrait",
+      "portraitWidths": [480, 720, 960, 1122],
+      "portraitIntrinsic": { "width": 1122, "height": 1402 },
+      "portraitAlt": "Tetelo M, artist, worshiper and songwriter with Visionaries of Purpose.",
+      "homePortrait": "assets/images/home/featured-tetelo-m",
+      "homePortraitWidths": [480, 720, 960, 1122],
+      "homePortraitIntrinsic": { "width": 1122, "height": 1402 },
+      "socialLinks": [
+        { "platform": "TikTok", "url": "https://www.tiktok.com/@tetelom64" },
+        { "platform": "Instagram", "url": "https://www.instagram.com/tetelo_.m/" },
+        { "platform": "Facebook", "url": "https://www.facebook.com/tetelo.mathuthu.7" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "given-mohlala",
+      "name": "Given Mohlala",
+      "role": "Worshiper · Composer · Songwriter",
+      "displayOrder": 3,
+      "shortBio": "A worshiper and composer whose music is shaped in moments of deep divine encounter.",
+      "longBio": [
+        "Given Mohlala is a visionary worshiper, composer and songwriter whose music is shaped in moments of deep divine encounter.",
+        "For Given, worship is more than a sound. It is a sacred response to what God reveals. His songs are often born from personal encounters with the presence of God, carrying messages that strengthen faith, awaken purpose and draw hearts closer to Christ.",
+        "With every melody and lyric, Given seeks to translate revelation into music that people can experience, remember and live by. His creativity is rooted in faith, guided by purpose and committed to leaving a lasting spiritual impact.",
+        "As part of Visionaries of Purpose, Given Mohlala represents a new generation of worshipers who are not only gifted to sing, but called to see, create and release what heaven is communicating to the world."
+      ],
+      "portrait": "assets/images/artists/given-mohlala-portrait",
+      "portraitWidths": [480, 720, 960, 1122],
+      "portraitIntrinsic": { "width": 1122, "height": 1402 },
+      "portraitAlt": "Given Mohlala, worshiper, composer and songwriter with Visionaries of Purpose.",
+      "homePortrait": "assets/images/home/featured-given-mohlala",
+      "homePortraitWidths": [480, 720, 960, 1122],
+      "homePortraitIntrinsic": { "width": 1122, "height": 1402 },
+      "socialLinks": [
+        { "platform": "TikTok", "url": "https://www.tiktok.com/@givenmohlala1" },
+        { "platform": "Facebook", "url": "https://www.facebook.com/GMohlala" },
+        { "platform": "Instagram", "url": "https://www.instagram.com/mohlala.g/" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "divine-oracle",
+      "name": "Divine Oracle",
+      "legalName": "Divine Jonasi",
+      "role": "Preacher · Worshipper",
+      "displayOrder": 4,
+      "shortBio": "A preacher and worshipper whose ministry is shaped by faith, purpose and a desire to reveal the heart of God.",
+      "longBio": [
+        "Divine Oracle, born Divine Jonasi, is a visionary preacher and worshipper whose ministry is shaped by faith, purpose and a deep desire to reveal the heart of God.",
+        "As part of Visionaries of Purpose, he carries a forward-looking approach to ministry, using both the Word and worship to awaken faith, inspire spiritual growth and lead people into meaningful encounters with God. His calling is not only to minister for the moment, but to help shape a generation that sees beyond the present and lives with divine purpose."
+      ],
+      "portrait": "assets/images/artists/divine-oracle-portrait",
+      "portraitWidths": [480, 720, 960, 1122],
+      "portraitIntrinsic": { "width": 1122, "height": 1402 },
+      "portraitAlt": "Divine Oracle, preacher and worshipper with Visionaries of Purpose.",
+      "homePortrait": "assets/images/home/featured-divine-oracle",
+      "homePortraitWidths": [480, 720, 960, 1122],
+      "homePortraitIntrinsic": { "width": 1122, "height": 1402 },
+      "socialLinks": [],
+      "isPublished": true
+    }
+  ],
+
+  "events": [
+    {
+      "slug": "my-hope-conference-2026",
+      "title": "My Hope Conference 2026",
+      "theme": "Jesus, the Light of Hope",
+      "supportingLine": "One True Light, One True Hope",
+      "scripture": "John 8:12",
+      "eventType": "Conference",
+      "host": "Shekinah Christian Worship Centre",
+      "artists": ["Minister Tshepiso SK"],
+      "artistSlugs": ["tshepiso-sk"],
+      "date": "2026-08-09",
+      "isAllDay": false,
+      "sessions": [
+        { "label": "Morning session", "start": "2026-08-09T08:00:00+02:00", "end": null },
+        { "label": "Evening session", "start": "2026-08-09T17:30:00+02:00", "end": null }
+      ],
+      "venue": "Shekinah Christian Worship Centre",
+      "city": "Tubatse",
+      "description": "Shekinah Christian Worship Centre presents My Hope Conference 2026, a day of worship, ministry and spiritual renewal featuring Minister Tshepiso SK.",
+      "longDescription": [
+        "Hope is not simply something we wait for. Hope has a name, and that name is Jesus.",
+        "Join Shekinah Christian Worship Centre for My Hope Conference 2026, a powerful gathering created to direct hearts back to the true and lasting light of Christ. Believers will gather in Tubatse for a full day of worship, ministry and spiritual renewal across a morning and an evening session, creating space for the Word, prayer, fellowship and worship.",
+        "As the featured guest artist, Minister Tshepiso SK will bring her worship ministry into an atmosphere prepared for encounter."
+      ],
+      "note": "Shekinah Christian Worship Centre celebrates 26 years of impact and existence.",
+      "admission": "Registration is online and free.",
+      "poster": "assets/images/events/my-hope-conference-2026-poster",
+      "posterWidths": [400, 640, 900, 1086],
+      "posterIntrinsic": { "width": 1086, "height": 1448 },
+      "posterAlt": "My Hope Conference 2026 poster in green and gold, showing guest artist Minister Tshepiso SK.",
+      "ticketUrl": null,
+      "ticketProvider": null,
+      "prices": [],
+      "mapsUrl": null,
+      "isPublished": true
+    },
+    {
+      "slug": "tetelo-m-worship-night-venda",
+      "title": "Worship Night",
+      "eventType": "Worship night",
+      "artists": ["Tetelo M"],
+      "artistSlugs": ["tetelo-m"],
+      "date": "2026-08-24",
+      "isAllDay": true,
+      "sessions": [],
+      "venue": null,
+      "city": "Venda",
+      "description": "Join Tetelo M for a Worship Night in Venda on 24 August 2026.",
+      "longDescription": [
+        "Join Tetelo M for a Worship Night in Venda."
+      ],
+      "poster": "assets/images/events/tetelo-m-worship-night-venda-poster",
+      "posterWidths": [400, 640, 900, 1122],
+      "posterIntrinsic": { "width": 1122, "height": 1402 },
+      "posterAlt": "Tetelo M Worship Night poster for the Venda date on 24 August 2026.",
+      "ticketUrl": null,
+      "ticketProvider": null,
+      "prices": [],
+      "mapsUrl": null,
+      "isPublished": true
+    },
+    {
+      "slug": "second-annual-charity-worship-night",
+      "title": "Second Annual Charity Worship Night",
+      "theme": "Gospel Festival",
+      "scripture": "Hebrews 13:16",
+      "eventType": "Gospel festival",
+      "organisers": ["Phalane Legacy", "AFM City of Refuge"],
+      "artists": ["Frank Phalane", "Minister Princess", "Given Mohlala", "Reneilwe", "Simon Kupa"],
+      "artistSlugs": ["given-mohlala"],
+      "date": "2026-08-28",
+      "isAllDay": false,
+      "sessions": [
+        { "label": "Doors and worship", "start": "2026-08-28T18:00:00+02:00", "end": null }
+      ],
+      "endTimeLabel": "Until late",
+      "venue": "AFM City of Refuge",
+      "city": "Letebejane",
+      "description": "Join Phalane Legacy and AFM City of Refuge for an evening of worship, giving and community impact.",
+      "longDescription": [
+        "Phalane Legacy and AFM City of Refuge present the Second Annual Charity Worship Night, a gospel festival created to bring worship, generosity and community impact together in one meaningful gathering.",
+        "The evening will feature uplifting worship, live gospel ministry and a shared commitment to helping people in need. More artists may be announced."
+      ],
+      "entranceRequirements": ["Clothes", "Shoes", "Food", "R50 offering"],
+      "admission": "Entrance is based on a charitable contribution.",
+      "enquiryNumbers": ["060 875 5073", "061 869 9355"],
+      "poster": "assets/images/events/charity-worship-night-2026-poster",
+      "posterWidths": [400, 640, 900, 1054],
+      "posterIntrinsic": { "width": 1054, "height": 1492 },
+      "posterAlt": "Second Annual Charity Worship Night gospel festival poster in orange and black, featuring Given Mohlala among the artists.",
+      "ticketUrl": null,
+      "ticketProvider": null,
+      "prices": [],
+      "mapsUrl": null,
+      "isPublished": true
+    },
+    {
+      "slug": "tshepiso-sk-worship-night-burgersfort",
+      "title": "Worship Night",
+      "eventType": "Worship night",
+      "artists": ["Tshepiso SK"],
+      "artistSlugs": ["tshepiso-sk"],
+      "date": "2026-09-26",
+      "isAllDay": true,
+      "sessions": [],
+      "venue": null,
+      "city": "Burgersfort",
+      "description": "Join Tshepiso SK for a special Worship Night in Burgersfort on 26 September 2026.",
+      "longDescription": [
+        "Join Tshepiso SK for a special night of worship, prayer and God-breathed song. Come expectant for a gathering filled with presence, ministry and sound that ministers to the heart."
+      ],
+      "poster": "assets/images/events/tshepiso-sk-worship-night-burgersfort-poster",
+      "posterWidths": [400, 640, 900, 1086],
+      "posterIntrinsic": { "width": 1086, "height": 1448 },
+      "posterAlt": "Tshepiso SK Worship Night poster for 26 September 2026 in Burgersfort.",
+      "ticketUrl": null,
+      "ticketProvider": null,
+      "prices": [],
+      "mapsUrl": null,
+      "isPublished": true
+    },
+    {
+      "slug": "worship-therapy-season-3",
+      "title": "Worship Therapy Season 3",
+      "theme": "Gospel Worship Experience",
+      "eventType": "Music show",
+      "artists": ["Given Mohlala"],
+      "artistSlugs": ["given-mohlala"],
+      "date": "2026-10-03",
+      "isAllDay": false,
+      "sessions": [
+        { "label": "Doors and worship", "start": "2026-10-03T17:00:00+02:00", "end": null }
+      ],
+      "venue": "Sehlaku Secondary School Hall",
+      "city": "R37",
+      "description": "Step into an atmosphere of praise, prayer and renewal with Given Mohlala.",
+      "longDescription": [
+        "Worship Therapy Season 3 is a gospel worship experience centred on praise, prayer, healing, freedom and a life-changing encounter with God.",
+        "This season features Given Mohlala and invites worshippers to gather for an evening of sincere worship, spiritual connection and renewal."
+      ],
+      "enquiryNumbers": ["071 331 8575", "082 476 0160"],
+      "poster": "assets/images/events/worship-therapy-season-3-poster",
+      "posterWidths": [400, 640, 900, 1086],
+      "posterIntrinsic": { "width": 1086, "height": 1448 },
+      "posterAlt": "Worship Therapy Season 3 poster featuring Given Mohlala, 3 October 2026 at 17:00.",
+      "ticketUrl": "https://computicket.com/event/worship-therapy-season-3/107c576e-35a9-4eec-9526-2d07311eff8c",
+      "ticketProvider": "Computicket",
+      "prices": [
+        { "tier": "Early bird", "amount": "R100" },
+        { "tier": "General", "amount": "R150" },
+        { "tier": "VIP", "amount": "R300" }
+      ],
+      "mapsUrl": null,
+      "isPublished": true
+    },
+    {
+      "slug": "grace-renewed-live-recording",
+      "title": "Grace Renewed Live Recording",
+      "eventType": "Live recording",
+      "artists": ["Tshepiso SK"],
+      "artistSlugs": ["tshepiso-sk"],
+      "date": "2026-11-14",
+      "isAllDay": true,
+      "sessions": [],
+      "venue": null,
+      "city": "Burgersfort",
+      "description": "Be part of Grace Renewed, a live recording experience with Tshepiso SK in Burgersfort on 14 November 2026.",
+      "longDescription": [
+        "Be part of a powerful live recording with Tshepiso SK. Come ready for worship, encounter, and a sound of renewal that will fill the room with faith, presence and grace."
+      ],
+      "poster": "assets/images/events/grace-renewed-live-recording-poster",
+      "posterWidths": [400, 640, 900, 1086],
+      "posterIntrinsic": { "width": 1086, "height": 1448 },
+      "posterAlt": "Grace Renewed Live Recording poster featuring Tshepiso SK, 14 November 2026 in Burgersfort.",
+      "ticketUrl": "https://computicket-boxoffice.com/e/grace-renewed-IxJviO",
+      "ticketProvider": "Computicket Box Office",
+      "prices": [],
+      "mapsUrl": null,
+      "isPublished": true
+    },
+    {
+      "slug": "tetelo-m-gospel-concert-rustenburg",
+      "title": "Gospel Concert",
+      "eventType": "Gospel concert",
+      "artists": ["Tetelo M"],
+      "artistSlugs": ["tetelo-m"],
+      "date": "2026-11-28",
+      "isAllDay": true,
+      "sessions": [],
+      "venue": null,
+      "city": "Rustenburg",
+      "description": "See Tetelo M at the Gospel Concert in Rustenburg on 28 November 2026.",
+      "longDescription": [
+        "An unforgettable night of gospel music awaits in Rustenburg. Come and experience Tetelo M live as she ministers in song with warmth, joy and worship. Gather your loved ones and join us for an evening that will leave hearts refreshed."
+      ],
+      "poster": "assets/images/events/tetelo-m-gospel-concert-rustenburg-poster",
+      "posterWidths": [400, 640, 900, 1122],
+      "posterIntrinsic": { "width": 1122, "height": 1402 },
+      "posterAlt": "Tetelo M Gospel Concert poster in cream and gold for 28 November 2026 in Rustenburg.",
+      "ticketUrl": null,
+      "ticketProvider": null,
+      "prices": [],
+      "mapsUrl": null,
+      "isPublished": true
+    },
+    {
+      "slug": "tetelo-m-21st-celebration-burgersfort",
+      "title": "21st Celebration",
+      "eventType": "Celebration",
+      "artists": ["Tetelo M"],
+      "artistSlugs": ["tetelo-m"],
+      "date": "2026-12-23",
+      "isAllDay": true,
+      "sessions": [],
+      "venue": null,
+      "city": "Burgersfort",
+      "description": "Join Tetelo M for the 21st Celebration in Burgersfort on 23 December 2026.",
+      "longDescription": [
+        "Join Tetelo M for the 21st Celebration in Burgersfort."
+      ],
+      "poster": "assets/images/events/tetelo-m-21st-celebration-burgersfort-poster",
+      "posterWidths": [400, 640, 900, 1024],
+      "posterIntrinsic": { "width": 1024, "height": 1536 },
+      "posterAlt": "Tetelo M 21st Celebration poster for 23 December 2026 in Burgersfort.",
+      "posterProvenance": "Generated to fill the one missing 2026 gig-guide poster. See 11_ASSET_AND_IMAGE_DIRECTION.md.",
+      "ticketUrl": null,
+      "ticketProvider": null,
+      "prices": [],
+      "mapsUrl": null,
+      "isPublished": true
+    },
+    {
+      "slug": "tetelo-m-gospel-festival-polokwane",
+      "title": "Gospel Festival",
+      "eventType": "Gospel festival",
+      "artists": ["Tetelo M"],
+      "artistSlugs": ["tetelo-m"],
+      "date": "2026-12-28",
+      "isAllDay": true,
+      "sessions": [],
+      "venue": null,
+      "city": "Polokwane",
+      "description": "See Tetelo M at the Gospel Festival in Polokwane on 28 December 2026.",
+      "longDescription": [
+        "Come celebrate at the Gospel Festival in Polokwane with Tetelo M. Expect a vibrant time of worship, uplifting music and a powerful end-of-year gathering with people who love the presence of God."
+      ],
+      "poster": "assets/images/events/tetelo-m-gospel-festival-polokwane-poster",
+      "posterWidths": [400, 640, 900, 1122],
+      "posterIntrinsic": { "width": 1122, "height": 1402 },
+      "posterAlt": "Tetelo M Gospel Festival poster in cream and gold for 28 December 2026 in Polokwane.",
+      "ticketUrl": null,
+      "ticketProvider": null,
+      "prices": [],
+      "mapsUrl": null,
+      "isPublished": true
+    }
+  ],
+
+  "releases": [
+    {
+      "slug": "my-life-depends-on-you-lord",
+      "title": "My Life Depends on You Lord",
+      "artist": "Tetelo M",
+      "artistSlug": "tetelo-m",
+      "type": "Single",
+      "isLatest": true,
+      "cover": "assets/images/music/my-life-depends-on-you-lord-cover",
+      "coverWidths": [320, 480, 704],
+      "coverIntrinsic": { "width": 704, "height": 707 },
+      "coverAlt": "Cover artwork for My Life Depends on You Lord by Tetelo M.",
+      "spotifyTrackId": "0Fj2RPVTrqE5e1wOq8ZeK6",
+      "links": [
+        { "platform": "Spotify", "url": "https://open.spotify.com/track/0Fj2RPVTrqE5e1wOq8ZeK6" },
+        { "platform": "Apple Music", "url": "https://music.apple.com/us/album/my-life-depends-on-you-lord-single/6783933798" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "at-the-mention-of-your-name",
+      "title": "At the Mention of Your Name",
+      "artist": "Tetelo M",
+      "artistSlug": "tetelo-m",
+      "type": "Single",
+      "cover": "assets/images/music/at-the-mention-of-your-name-cover",
+      "coverWidths": [320, 480, 574],
+      "coverIntrinsic": { "width": 574, "height": 578 },
+      "coverAlt": "Cover artwork for At the Mention of Your Name by Tetelo M.",
+      "spotifyTrackId": "5BovwhyvEonfPOtVXDeqba",
+      "links": [
+        { "platform": "Spotify", "url": "https://open.spotify.com/track/5BovwhyvEonfPOtVXDeqba" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "matthew-7-7-kokota",
+      "title": "Matthew 7:7 Kokota",
+      "artist": "Tetelo M ft Given Mohlala",
+      "artistSlug": "tetelo-m",
+      "type": "Single",
+      "cover": "assets/images/music/matthew-7-7-kokota-cover",
+      "coverWidths": [320, 480, 702],
+      "coverIntrinsic": { "width": 702, "height": 707 },
+      "coverAlt": "Cover artwork for Matthew 7:7 Kokota by Tetelo M featuring Given Mohlala.",
+      "spotifyTrackId": "5SKeF33IiyqqI1zoPZRdaA",
+      "links": [
+        { "platform": "Spotify", "url": "https://open.spotify.com/track/5SKeF33IiyqqI1zoPZRdaA" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "buwa",
+      "title": "Buwa",
+      "artist": "Tetelo M",
+      "artistSlug": "tetelo-m",
+      "type": "Single",
+      "cover": "assets/images/music/buwa-cover",
+      "coverWidths": [320, 480, 711],
+      "coverIntrinsic": { "width": 711, "height": 713 },
+      "coverAlt": "Cover artwork for Buwa by Tetelo M.",
+      "spotifyTrackId": "3mof2hYc48J3WlevEQ7sFS",
+      "links": [
+        { "platform": "Spotify", "url": "https://open.spotify.com/track/3mof2hYc48J3WlevEQ7sFS" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "o-mogologolo",
+      "title": "O Mogologolo",
+      "artist": "Given Mohlala",
+      "artistSlug": "given-mohlala",
+      "type": "Live single",
+      "cover": "assets/images/music/o-mogologolo-cover",
+      "coverWidths": [320, 356],
+      "coverIntrinsic": { "width": 356, "height": 354 },
+      "coverAlt": "Cover artwork for O Mogologolo by Given Mohlala, recorded live in Pretoria.",
+      "spotifyTrackId": "5hhXPSieGcOOokcJ6OFAyu",
+      "appleSongId": "1843885803",
+      "links": [
+        { "platform": "Spotify", "url": "https://open.spotify.com/track/5hhXPSieGcOOokcJ6OFAyu" },
+        { "platform": "Apple Music", "url": "https://music.apple.com/us/song/o-mogologolo-live/1843885803" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "ehh-kea-dumela",
+      "title": "Ehh Kea Dumela",
+      "artist": "Given Mohlala",
+      "artistSlug": "given-mohlala",
+      "type": "Live single",
+      "cover": "assets/images/music/ehh-kea-dumela-cover",
+      "coverWidths": [320, 426],
+      "coverIntrinsic": { "width": 426, "height": 427 },
+      "coverAlt": "Cover artwork for Ehh Kea Dumela by Given Mohlala, recorded live at Pretoria.",
+      "spotifyTrackId": "3mZcqiW4SAg2cDTSmER4cM",
+      "appleSongId": "1839441026",
+      "links": [
+        { "platform": "Spotify", "url": "https://open.spotify.com/track/3mZcqiW4SAg2cDTSmER4cM" },
+        { "platform": "Apple Music", "url": "https://music.apple.com/us/song/ehh-kea-dumela-live/1839441026" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "phenyo",
+      "title": "Phenyo",
+      "artist": "Sonto & Tshepiso",
+      "artistSlug": "tshepiso-sk",
+      "type": "Single",
+      "cover": "assets/images/music/ngcwele-phenyo-cover",
+      "coverWidths": [320, 355],
+      "coverIntrinsic": { "width": 355, "height": 365 },
+      "coverAlt": "Cover artwork for the Ngcwele and Phenyo release by Sonto and Tshepiso.",
+      "spotifyTrackId": "0A20P9vmf6gMa0GC5BUiS0",
+      "links": [
+        { "platform": "Spotify", "url": "https://open.spotify.com/track/0A20P9vmf6gMa0GC5BUiS0" }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "ngcwele",
+      "title": "Ngcwele",
+      "artist": "Sonto & Tshepiso",
+      "artistSlug": "tshepiso-sk",
+      "type": "Single",
+      "cover": "assets/images/music/ngcwele-phenyo-cover",
+      "coverWidths": [320, 355],
+      "coverIntrinsic": { "width": 355, "height": 365 },
+      "coverAlt": "Cover artwork for the Ngcwele and Phenyo release by Sonto and Tshepiso.",
+      "spotifyTrackId": "5zMoA6T7ZIkLamCfhBM4H2",
+      "links": [
+        { "platform": "Spotify", "url": "https://open.spotify.com/track/5zMoA6T7ZIkLamCfhBM4H2" }
+      ],
+      "isPublished": true
+    }
+  ],
+
+  "videos": [
+    {
+      "youtubeId": "IuD23IpalcY",
+      "title": "Music video 1",
+      "label": "Video 1 of 2"
+    },
+    {
+      "youtubeId": "xJkMyMZ4jLs",
+      "title": "Music video 2",
+      "label": "Video 2 of 2"
+    }
+  ],
+
+  "news": [
+    {
+      "slug": "tshepiso-sk-community-outreach",
+      "title": "Where dignity found its feet: Tshepiso SK brings shoes, sanitary pads and hope to a local primary school",
+      "category": "Community impact",
+      "excerpt": "Tshepiso SK brought compassion into action through a successful school shoes and sanitary pads outreach at a local primary school, affirming the dignity, confidence and potential of every learner reached.",
+      "leadImage": "assets/images/news/tshepiso-sk-outreach-lead",
+      "leadImageWidths": [560, 900, 1280, 1536],
+      "leadImageIntrinsic": { "width": 1536, "height": 1024 },
+      "leadImageAlt": "Representatives presenting donated school shoes and sanitary pads with learners gathered behind them.",
+      "isPublished": true
+    }
+  ],
+
+  "newsDrafts": [
+    {
+      "slug": "family-fun-walk-story",
+      "workingTitle": "Family fun walk, medals and Miss Grand South Africa",
+      "status": "draft",
+      "blockedOn": "Headline, body copy, publication date, author and participant image permissions are not approved. Seven photographs supplied in News/DIV 1/bLOG STORY 2.",
+      "isPublished": false
+    }
+  ]
+}
